@@ -100,7 +100,7 @@ def main():
                 re_read_yaml = True
             else:
                 print("Error fetching movie data for:", entry.get("moviedb", ""))
-                sys.exit(1)
+                exit(1)
 
     if re_read_yaml:
         with open('events.yaml', 'r', encoding='utf-8') as file:
