@@ -26,8 +26,7 @@ def get_movie_data(moviedb_url, api_key):
         return movie_data
     else:
         print(f"Error fetching data for {moviedb_url}: {response.status_code}")
-        # Throw an exception to stop the script
-        sys.exit(1)
+        return None
 
 
 def generate_random_id(length=6):
@@ -99,6 +98,9 @@ def main():
                 with open('events.yaml', 'w', encoding='utf-8') as file:
                     yaml.safe_dump(data, file)
                 re_read_yaml = True
+            else:
+                print("Error fetching movie data for:", entry.get("moviedb", ""))
+                sys.exit(1)
 
     if re_read_yaml:
         with open('events.yaml', 'r', encoding='utf-8') as file:
