@@ -3,6 +3,7 @@ import os
 import random
 import requests
 import string
+import sys
 import yaml
 from datetime import datetime
 
@@ -26,7 +27,7 @@ def get_movie_data(moviedb_url, api_key):
     else:
         print(f"Error fetching data for {moviedb_url}: {response.status_code}")
         # Throw an exception to stop the script
-        raise Exception(f"Error fetching data for {moviedb_url}: {response.status_code}")
+        sys.exit(1)
 
 
 def generate_random_id(length=6):
