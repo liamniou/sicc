@@ -1,0 +1,13 @@
+services:
+  sicc:
+    image: liamnou/sicc:v1.6
+    container_name: sicc
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    networks:
+      - caddy-network
+
+networks:
+  caddy-network:
+    external: true
