@@ -25,7 +25,8 @@ def get_movie_data(moviedb_url, api_key):
         return movie_data
     else:
         print(f"Error fetching data for {moviedb_url}: {response.status_code}")
-        return None
+        # Throw an exception to stop the script
+        raise Exception(f"Error fetching data for {moviedb_url}: {response.status_code}")
 
 
 def generate_random_id(length=6):
