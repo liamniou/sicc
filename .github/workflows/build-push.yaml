@@ -39,7 +39,7 @@ jobs:
     - name: Extract and Increment Docker version
       id: version
       run: |
-        echo "$(python your_python_script.py)" >> $GITHUB_ENV
+        echo "$(python bump_version.py)" >> $GITHUB_ENV
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3.7.1
