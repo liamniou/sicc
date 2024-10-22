@@ -46,10 +46,10 @@ jobs:
         new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++}1')
 
         # Adjust new version to v1.7 style if necessary
-        new_version="v${new_version}"
+        new_version="${new_version}"
 
         # Update compose.yaml with new image version
-        sed -i "s|image: liamnou/sicc:${current_version}|image: liamnou/sicc:${new_version}|" compose.yaml
+        sed -i "s|image: ${current_version}|image: ${new_version}|" compose.yaml
 
         # Echo new version to the 'env' file so it gets stored as an environment variable
         echo "NEW_VERSION=$new_version" >> $GITHUB_ENV
@@ -71,5 +71,5 @@ jobs:
         context: chaibuilder-nextjs
         file: Dockerfile.multistage
         push: true
-        tags: liamnou/sicc:${{ env.NEW_VERSION }}
+        tags: ${{ env.NEW_VERSION }}
         platforms: linux/arm64

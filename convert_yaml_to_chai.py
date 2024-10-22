@@ -83,6 +83,8 @@ def main():
     with open('events.yaml', 'r', encoding='utf-8') as file:
         data = yaml.safe_load(file)
 
+    re_read_yaml = False
+
     for entry in data:
         if not entry.get("moviedb", None):
             print("Error: moviedb URL not found in entry:", entry)
@@ -94,6 +96,11 @@ def main():
                 entry["poster_url"] = f"https://image.tmdb.org/t/p/w600_and_h900_bestv2{movie_data.get('poster_path')}"
                 with open('events.yaml', 'w', encoding='utf-8') as file:
                     yaml.safe_dump(data, file)
+                re_read_yaml = True
+
+    if re_read_yaml:
+        with open('events.yaml', 'r', encoding='utf-8') as file:
+            data = yaml.safe_load(file)
 
     main_page_events = []
     upcoming_events = []
