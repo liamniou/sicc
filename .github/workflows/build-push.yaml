@@ -54,7 +54,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: chaibuilder-nextjs
-        file: Dockerfile.multistage
+        file: chaibuilder-nextjs/Dockerfile.multistage
         push: true
         tags: liamnou/sicc:${{ env.NEW_VERSION }}
         platforms: linux/arm64
