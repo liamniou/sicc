@@ -33,7 +33,7 @@ jobs:
       id: version
       run: |
         # Extract the current version
-        current_version=$(grep 'image: liamnou/sicc:' docker-compose.yaml | grep -oP '(?<=:).+')
+        current_version=$(grep 'image: liamnou/sicc:' compose.yaml | grep -oP '(?<=:).+')
 
         # Use awk to do version increment. This will split the version by '.' and increment the second part (minor version).
         new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++}1')
@@ -41,8 +41,8 @@ jobs:
         # Adjust new version to v1.7 style if necessary
         new_version="v${new_version}"
 
-        # Update docker-compose.yaml with new image version
-        sed -i "s|image: liamnou/sicc:${current_version}|image: liamnou/sicc:${new_version}|" docker-compose.yaml
+        # Update compose.yaml with new image version
+        sed -i "s|image: liamnou/sicc:${current_version}|image: liamnou/sicc:${new_version}|" compose.yaml
 
         # Echo new version to the 'env' file so it gets stored as an environment variable
         echo "NEW_VERSION=$new_version" >> $GITHUB_ENV
