@@ -52,13 +52,31 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
+    - name: Cache Docker layers
+      uses: actions/cache/restore@v4
+      with:
+        path: /tmp/.buildx-cache
+        key: ${{ runner.os }}-buildx
+        restore-keys: |
+          ${{ runner.os }}-buildx
+
     - name: Build and Push Docker image
       uses: docker/build-push-action@v2
       with:
+        build-args: BUILDKIT_INLINE_CACHE=1
+        cache-from: type=local,src=/tmp/.buildx-cache
+        cache-to: type=local,dest=/tmp/.buildx-cache
         context: chaibuilder-nextjs
         file: chaibuilder-nextjs/Dockerfile.multistage
         push: true
         tags: liamnou/sicc:${{ env.NEW_VERSION }}
         platforms: linux/arm64
+
+    - name: Save Docker layers
+      id: cache-primes-save
+      uses: actions/cache/save@v4
+      with:
+        path: /tmp/.buildx-cache
+        key: ${{ runner.os }}-buildx
 
     - uses: stefanzweifel/git-auto-commit-action@v5
