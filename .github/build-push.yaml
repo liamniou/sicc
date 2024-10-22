@@ -27,6 +27,14 @@ jobs:
     - name: Run Python conversion script
       run: python convert_yaml_to_chai.py
 
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'CI'
+        git config --global user.email 'lestar.by@gmail.com'
+        git add .
+        git commit -m "Commit after executing script" || echo "No changes to commit"
+        git push
+
     - name: Extract and Increment Docker version
       id: version
       run: |
