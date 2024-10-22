@@ -39,20 +39,7 @@ jobs:
     - name: Extract and Increment Docker version
       id: version
       run: |
-        # Extract the current version
-        current_version=$(grep 'image: liamnou/sicc:' compose.yaml | grep -oP '(?<=:).+')
-
-        # Use awk to do version increment. This will split the version by '.' and increment the second part (minor version).
-        new_version=$(echo $current_version | awk -F. -v OFS=. '{$2++}1')
-
-        # Adjust new version to v1.7 style if necessary
-        new_version="${new_version}"
-
-        # Update compose.yaml with new image version
-        sed -i "s|image: ${current_version}|image: ${new_version}|" compose.yaml
-
-        # Echo new version to the 'env' file so it gets stored as an environment variable
-        echo "NEW_VERSION=$new_version" >> $GITHUB_ENV
+        echo "$(python your_python_script.py)" >> $GITHUB_ENV
 
     - uses: stefanzweifel/git-auto-commit-action@v5
 
@@ -71,5 +58,5 @@ jobs:
         context: chaibuilder-nextjs
         file: Dockerfile.multistage
         push: true
-        tags: ${{ env.NEW_VERSION }}
+        tags: liamnou/sicc:${{ env.NEW_VERSION }}
         platforms: linux/arm64
