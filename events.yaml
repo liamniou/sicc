@@ -6,11 +6,9 @@
 #   place: Bio Zita
 #
 # `moviedb` should contain Movie's page at https://www.themoviedb.org. That's it. The rest is automatic.
-- moviedb: https://www.themoviedb.org/movie/490132-green-book
+- moviedb: https://www.themoviedb.org/movie/490132-green
   date: Nov 13 2024
   place: Bio Zita
-  title: Green Book
-  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg
 - title: Together
   link: https://www.facebook.com/events/559854733365091/
   moviedb: https://www.themoviedb.org/movie/742-tillsammans
