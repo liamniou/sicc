@@ -57,9 +57,9 @@ jobs:
       uses: actions/cache/restore@v4
       with:
         path: /tmp/.buildx-cache
-        key: ${{ runner.os }}-buildx
+        key: ubuntu-latest-buildx
         restore-keys: |
-          ${{ runner.os }}-buildx
+          ubuntu-latest-buildx
 
     - name: Build and Push Docker image
       uses: docker/build-push-action@v2
@@ -78,6 +78,6 @@ jobs:
       uses: actions/cache/save@v4
       with:
         path: /tmp/.buildx-cache
-        key: ${{ runner.os }}-buildx
+        key: ubuntu-latest-buildx
 
     - uses: stefanzweifel/git-auto-commit-action@v5
