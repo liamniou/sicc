@@ -37,6 +37,7 @@ jobs:
       run: python convert_yaml_to_chai.py
       env:
         MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
+      continue-on-error: false
 
     - name: Extract and Increment Docker version
       id: version

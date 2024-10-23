@@ -89,7 +89,7 @@ def main():
     for entry in data:
         if not entry.get("moviedb", None):
             print("Error: moviedb URL not found in entry:", entry)
-            exit(1)
+            sys.exit(1)
         if entry.get("title", None) is None or entry.get("poster_url", None) is None:
             movie_data = get_movie_data(entry.get("moviedb", ""), api_key)
             if movie_data:
@@ -100,7 +100,7 @@ def main():
                 re_read_yaml = True
             else:
                 print("Error fetching movie data for:", entry.get("moviedb", ""))
-                exit(1)
+                sys.exit(1)
 
     if re_read_yaml:
         with open('events.yaml', 'r', encoding='utf-8') as file:
