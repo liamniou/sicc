@@ -15,6 +15,83 @@
     "_name": "Main"
   },
   {
+    "styles": "#styles:,mt-0",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "mDnBqv",
+    "_name": "Photo",
+    "_parent": "sCzzfA"
+  },
+  {
+    "styles": "#styles:,relative z-10 h-64 w-2/3 rounded-xl object-cover mx-auto",
+    "image": "https://i.imgur.com/Pbd3vmG.png",
+    "alt": "",
+    "width": "",
+    "height": "",
+    "lazyLoading": true,
+    "_type": "Image",
+    "_id": "jkikqr",
+    "_parent": "mDnBqv"
+  },
+  {
+    "styles": "#styles:,relative z-20 mx-auto rounded bg-white p-6 shadow dark:bg-gray-900 max-w-2xl -mt-10",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "soxAtA",
+    "_name": "Text",
+    "_parent": "mDnBqv"
+  },
+  {
+    "styles": "#styles:,flex justify-center text-3xl font-semibold mt-4 text-center",
+    "content": "Stockholm International Cinema Collective",
+    "_type": "Paragraph",
+    "_id": "uraevv",
+    "_parent": "soxAtA",
+    "_name": "Title"
+  },
+  {
+    "styles": "#styles:,mt-3 text-center",
+    "content": "We are a group of volunteers organizing English-subtitled screenings because we missed watching international films in Stockholm. We do not make a profit from these events; instead, we arrange special showings at cozy independent cinemas around Stockholm.",
+    "_type": "Paragraph",
+    "_id": "roDwfz",
+    "_parent": "soxAtA",
+    "_name": "Paragraph"
+  },
+  {
+    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center pb-1",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "lalqrd",
+    "_name": "Donate",
+    "_parent": "mDnBqv"
+  },
+  {
+    "_type": "Link",
+    "_id": "yBjnpk",
+    "styles": "#styles:,",
+    "content": "",
+    "link": {
+      "type": "url",
+      "href": "https://buymeacoffee.com/",
+      "target": "_blank"
+    },
+    "_parent": "lalqrd",
+    "_name": "Donate"
+  },
+  {
+    "_type": "Button",
+    "_id": "Bvungt",
+    "content": "Support Us",
+    "styles": "#styles:my-[15px],text-white px-4 py-2 flex items-center place-self-center rounded-full bg-black xl:py-[8px] xl:my-[15px]",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\"><path d=\"M17.726 13.02 14 16H9v-1h4.065a.5.5 0 0 0 .416-.777l-.888-1.332A1.995 1.995 0 0 0 10.93 12H3a1 1 0 0 0-1 1v6a2 2 0 0 0 2 2h9.639a3 3 0 0 0 2.258-1.024L22 13l-1.452-.484a2.998 2.998 0 0 0-2.822.504zm1.532-5.63c.451-.465.73-1.108.73-1.818s-.279-1.353-.73-1.818A2.447 2.447 0 0 0 17.494 3S16.25 2.997 15 4.286C13.75 2.997 12.506 3 12.506 3a2.45 2.45 0 0 0-1.764.753c-.451.466-.73 1.108-.73 1.818s.279 1.354.73 1.818L15 12l4.258-4.61z\"/></svg>",
+    "iconSize": 24,
+    "iconPos": "order-last",
+    "_parent": "yBjnpk"
+  },
+  {
     "styles": "#styles:,container mx-auto px-6 text-center",
     "tag": "div",
     "backgroundImage": "",
@@ -27,24 +104,7 @@
     }
   },
   {
-    "_type": "Box",
-    "_id": "coscyf",
-    "styles": "#styles:,",
-    "tag": "div",
-    "backgroundImage": "",
-    "_parent": "wbufkf",
-    "_name": "Name"
-  },
-  {
-    "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
-    "content": "Stockholm International Cinema Collective",
-    "_type": "Heading",
-    "_id": "euwCkb",
-    "_parent": "coscyf"
-  },
-  {
-    "styles": "#styles:,mt-10 flex justify-center",
+    "styles": "#styles:,flex justify-center mt-0",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -61,6 +121,23 @@
     "_type": "Image",
     "_id": "agjics",
     "_parent": "ixCAxs"
+  },
+  {
+    "_type": "Box",
+    "_id": "coscyf",
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_parent": "wbufkf",
+    "_name": "Name"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800 dark:text-white mt-4 lg:text-4xl",
+    "content": "Stockholm International Cinema Collective",
+    "_type": "Heading",
+    "_id": "euwCkb",
+    "_parent": "coscyf"
   },
   {
     "styles": "#styles:,mx-auto flex justify-center",
