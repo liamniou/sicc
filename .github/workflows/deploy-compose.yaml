@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'compose.yaml'
+  workflow_dispatch:
 
 jobs:
   build:
