@@ -15,6 +15,109 @@
     "_name": "Main"
   },
   {
+    "styles": "#styles:,container mx-auto px-6 text-center",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "wbufkf",
+    "_name": "About",
+    "_parent": "sCzzfA",
+    "styles_attrs": {
+      "id": "about"
+    }
+  },
+  {
+    "_type": "Box",
+    "_id": "coscyf",
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_parent": "wbufkf",
+    "_name": "Name"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
+    "content": "Stockholm International Cinema Collective",
+    "_type": "Heading",
+    "_id": "euwCkb",
+    "_parent": "coscyf"
+  },
+  {
+    "styles": "#styles:,mt-10 flex justify-center",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "ixCAxs",
+    "_name": "Photo",
+    "_parent": "wbufkf"
+  },
+  {
+    "styles": "#styles:,h-64 w-2/3 rounded-xl object-cover",
+    "image": "https://i.imgur.com/Pbd3vmG.png",
+    "alt": "photo",
+    "width": "",
+    "height": "",
+    "_type": "Image",
+    "_id": "agjics",
+    "_parent": "ixCAxs"
+  },
+  {
+    "styles": "#styles:,mx-auto flex justify-center",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "arzBcy",
+    "_name": "Description",
+    "_parent": "wbufkf"
+  },
+  {
+    "styles": "#styles:,mt-6 w-3/5",
+    "content": "We are a group of volunteers organizing English-subtitled screenings because we missed watching international films in Stockholm. We do not make a profit from these events; instead, we arrange special showings at cozy independent cinemas around Stockholm.",
+    "_type": "Paragraph",
+    "_id": "orAhzi",
+    "_parent": "arzBcy"
+  },
+  {
+    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center pb-4",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "pkuegi",
+    "_name": "Donate",
+    "_parent": "wbufkf"
+  },
+  {
+    "_type": "Link",
+    "_id": "Cihnoy",
+    "styles": "#styles:,",
+    "content": "",
+    "link": {
+      "type": "url",
+      "href": "https://buymeacoffee.com/",
+      "target": "_blank"
+    },
+    "_parent": "pkuegi",
+    "_name": "Donate"
+  },
+  {
+    "_type": "Button",
+    "_id": "bwAxsn",
+    "content": "Support Us",
+    "styles": "#styles:my-[15px],text-white px-4 py-2 flex items-center place-self-center rounded-full bg-black xl:py-[8px] xl:my-[15px]",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\"><path d=\"M17.726 13.02 14 16H9v-1h4.065a.5.5 0 0 0 .416-.777l-.888-1.332A1.995 1.995 0 0 0 10.93 12H3a1 1 0 0 0-1 1v6a2 2 0 0 0 2 2h9.639a3 3 0 0 0 2.258-1.024L22 13l-1.452-.484a2.998 2.998 0 0 0-2.822.504zm1.532-5.63c.451-.465.73-1.108.73-1.818s-.279-1.353-.73-1.818A2.447 2.447 0 0 0 17.494 3S16.25 2.997 15 4.286C13.75 2.997 12.506 3 12.506 3a2.45 2.45 0 0 0-1.764.753c-.451.466-.73 1.108-.73 1.818s.279 1.354.73 1.818L15 12l4.258-4.61z\"/></svg>",
+    "iconSize": 24,
+    "iconPos": "order-last",
+    "_parent": "Cihnoy"
+  },
+  {
+    "_type": "Divider",
+    "_id": "uhghcq",
+    "styles": "#styles:,border-gray-200",
+    "_parent": "sCzzfA",
+    "_name": "Main-divider"
+  },
+  {
     "styles": "#styles:,",
     "tag": "section",
     "backgroundImage": "",
@@ -24,7 +127,7 @@
     "_parent": "sCzzfA"
   },
   {
-    "styles": "#styles:,container mx-auto px-6 py-10 2xl:py-[0px]",
+    "styles": "#styles:,container mx-auto px-6 py-10",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -71,7 +174,7 @@
   {
     "_type": "Box",
     "_id": "jzatvz",
-    "styles": "#styles:w-[75%],mx-auto flex max-w-lg flex-col items-center text-center xl:w-[75%]",
+    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center pb-4",
     "tag": "div",
     "backgroundImage": "",
     "_parent": "ezteti",
@@ -103,111 +206,8 @@
   },
   {
     "_type": "Divider",
-    "_id": "uhghcq",
-    "styles": "#styles:my-10,my-6 border-gray-200 dark:border-gray-700 md:my-10 xl:my-[32px]",
-    "_parent": "sCzzfA",
-    "_name": "Main-divider"
-  },
-  {
-    "styles": "#styles:pt-[32px] pb-[16px],container mx-auto px-6 py-16 text-center xl:pt-[32px] xl:py-[0px] xl:pb-[16px]",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "wbufkf",
-    "_name": "About",
-    "_parent": "sCzzfA",
-    "styles_attrs": {
-      "id": "about"
-    }
-  },
-  {
-    "_type": "Box",
-    "_id": "coscyf",
-    "styles": "#styles:,",
-    "tag": "div",
-    "backgroundImage": "",
-    "_parent": "wbufkf",
-    "_name": "Name"
-  },
-  {
-    "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
-    "content": "Stockholm International Cinema Collective",
-    "_type": "Heading",
-    "_id": "euwCkb",
-    "_parent": "coscyf"
-  },
-  {
-    "styles": "#styles:,mt-10 flex justify-center",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "ixCAxs",
-    "_name": "Photo",
-    "_parent": "wbufkf"
-  },
-  {
-    "styles": "#styles:,h-96 w-full rounded-xl object-cover lg:w-4/5",
-    "image": "https://i.imgur.com/Pbd3vmG.png",
-    "alt": "photo",
-    "width": "",
-    "height": "",
-    "_type": "Image",
-    "_id": "agjics",
-    "_parent": "ixCAxs"
-  },
-  {
-    "styles": "#styles:,mx-auto flex justify-center",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "arzBcy",
-    "_name": "Description",
-    "_parent": "wbufkf"
-  },
-  {
-    "styles": "#styles:,w-3/4 mt-6",
-    "content": "We are a group of volunteers arranging these showings because we missed watching international films in Stockholm. We do not make a profit from these screenings; rather, we arrange special English-subtitled showings with cozy independent cinemas around Stockholm. If you would like to get involved with our mission, please send us a message!",
-    "_type": "Paragraph",
-    "_id": "orAhzi",
-    "_parent": "arzBcy"
-  },
-  {
-    "styles": "#styles:w-[75%],mx-auto flex max-w-lg flex-col items-center text-center xl:w-[75%]",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "pkuegi",
-    "_name": "Donate",
-    "_parent": "wbufkf"
-  },
-  {
-    "_type": "Link",
-    "_id": "Cihnoy",
-    "styles": "#styles:,",
-    "content": "",
-    "link": {
-      "type": "url",
-      "href": "https://buymeacoffee.com/",
-      "target": "_blank"
-    },
-    "_parent": "pkuegi",
-    "_name": "Donate"
-  },
-  {
-    "_type": "Button",
-    "_id": "bwAxsn",
-    "content": "Support Us",
-    "styles": "#styles:my-[15px],text-white px-4 py-2 flex items-center place-self-center rounded-full bg-black xl:py-[8px] xl:my-[15px]",
-    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\"><path d=\"M17.726 13.02 14 16H9v-1h4.065a.5.5 0 0 0 .416-.777l-.888-1.332A1.995 1.995 0 0 0 10.93 12H3a1 1 0 0 0-1 1v6a2 2 0 0 0 2 2h9.639a3 3 0 0 0 2.258-1.024L22 13l-1.452-.484a2.998 2.998 0 0 0-2.822.504zm1.532-5.63c.451-.465.73-1.108.73-1.818s-.279-1.353-.73-1.818A2.447 2.447 0 0 0 17.494 3S16.25 2.997 15 4.286C13.75 2.997 12.506 3 12.506 3a2.45 2.45 0 0 0-1.764.753c-.451.466-.73 1.108-.73 1.818s.279 1.354.73 1.818L15 12l4.258-4.61z\"/></svg>",
-    "iconSize": 24,
-    "iconPos": "order-last",
-    "_parent": "Cihnoy"
-  },
-  {
-    "_type": "Divider",
-    "_id": "shaofd",
-    "styles": "#styles:my-10,my-6 border-gray-200 dark:border-gray-700 md:my-10 xl:my-[32px]",
+    "_id": "Aegrfo",
+    "styles": "#styles:,border-gray-200",
     "_parent": "sCzzfA",
     "_name": "Main-divider"
   },
@@ -220,13 +220,13 @@
     "_name": "Work with SICC",
     "_parent": "sCzzfA",
     "styles_attrs": {
-      "id": "about"
+      "id": "work"
     }
   },
   {
     "_type": "Box",
     "_id": "Bydhwq",
-    "styles": "#styles:,",
+    "styles": "#styles:,pt-4",
     "tag": "div",
     "backgroundImage": "",
     "_parent": "CxAwpg",
@@ -234,7 +234,7 @@
   },
   {
     "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800",
     "content": "Work with SICC\n",
     "_type": "Heading",
     "_id": "biAjdk",

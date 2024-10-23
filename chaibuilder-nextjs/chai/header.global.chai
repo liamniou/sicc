@@ -92,7 +92,7 @@
     "backgroundImage": "",
     "_type": "Box",
     "_id": "hdxben",
-    "_name": "Box",
+    "_name": "Home",
     "_parent": "ucqkuz"
   },
   {
@@ -115,29 +115,8 @@
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
-    "_id": "DqrpiD",
-    "_name": "Box",
-    "_parent": "ucqkuz"
-  },
-  {
-    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-    "content": "Events",
-    "link": {
-      "type": "scroll",
-      "href": "#events",
-      "target": "_self"
-    },
-    "_type": "Link",
-    "_id": "DdCpDd",
-    "_parent": "DqrpiD"
-  },
-  {
-    "styles": "#styles:,",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
     "_id": "aBduuo",
-    "_name": "Box",
+    "_name": "About",
     "_parent": "ucqkuz"
   },
   {
@@ -157,21 +136,42 @@
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
-    "_id": "Azxjpn",
-    "_name": "Box",
+    "_id": "DqrpiD",
+    "_name": "Events",
     "_parent": "ucqkuz"
   },
   {
     "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-    "content": "Contacts",
+    "content": "Events",
     "link": {
       "type": "scroll",
-      "href": "#contacts",
+      "href": "#events",
       "target": "_self"
     },
     "_type": "Link",
-    "_id": "aerggq",
-    "_parent": "Azxjpn"
+    "_id": "DdCpDd",
+    "_parent": "DqrpiD"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "tbmuCe",
+    "_name": "Work with us",
+    "_parent": "ucqkuz"
+  },
+  {
+    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
+    "content": "Work with us",
+    "link": {
+      "type": "scroll",
+      "href": "#work",
+      "target": "_self"
+    },
+    "_type": "Link",
+    "_id": "ngvsAy",
+    "_parent": "tbmuCe"
   },
   {
     "styles": "#styles:col-span-2,md:col-span-2",
