@@ -24,7 +24,7 @@
     "_parent": "sCzzfA"
   },
   {
-    "styles": "#styles:,container mx-auto px-6 py-10 2xl:py-[4px]",
+    "styles": "#styles:,container mx-auto px-6 py-10 2xl:py-[0px]",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -71,7 +71,7 @@
   {
     "_type": "Box",
     "_id": "jzatvz",
-    "styles": "#styles:flex-row space-y-0,mx-auto mt-6 flex flex-col justify-center space-y-3 md:flex-row md:space-y-0",
+    "styles": "#styles:w-[75%],mx-auto flex max-w-lg flex-col items-center text-center xl:w-[75%]",
     "tag": "div",
     "backgroundImage": "",
     "_parent": "ezteti",
@@ -157,7 +157,7 @@
     "_parent": "ixCAxs"
   },
   {
-    "styles": "#styles:w-[75%],mx-auto xl:w-[75%]",
+    "styles": "#styles:,mx-auto flex justify-center",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -166,7 +166,7 @@
     "_parent": "wbufkf"
   },
   {
-    "styles": "#styles:,mt-6",
+    "styles": "#styles:,w-3/4 mt-6",
     "content": "We are a group of volunteers arranging these showings because we missed watching international films in Stockholm. We do not make a profit from these screenings; rather, we arrange special English-subtitled showings with cozy independent cinemas around Stockholm. If you would like to get involved with our mission, please send us a message!",
     "_type": "Paragraph",
     "_id": "orAhzi",
