@@ -1,197 +1,191 @@
----
-# Example on how to add new event to main page.
-# Add this block on top of the file:
-# - moviedb: https://www.themoviedb.org/movie/490132-green-book
-#   date: Nov 13 2024
-#   place: Bio Zita
-#
-# `moviedb` should contain Movie's page at https://www.themoviedb.org. That's it. The rest is automatic.
-- moviedb: https://www.themoviedb.org/movie/1121956-zielona-granica
-  date: Nov 13 2024
+- date: Nov 13 2024
+  moviedb: https://www.themoviedb.org/movie/1121956-zielona-granica
   place: Bio Zita
-- title: Together
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/tM0mUO9E0P2V1c3mc7co1ZHgdBq.jpg
+  title: Green Border
+- date: Oct 29 2024
   link: https://www.facebook.com/events/559854733365091/
   moviedb: https://www.themoviedb.org/movie/742-tillsammans
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fIY5xko6dJOcn0hckudIhPXobve.jpg
-  date: Oct 29 2024
   place: Bio Tellus
-- title: The Worst Person...
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fIY5xko6dJOcn0hckudIhPXobve.jpg
+  title: Together
+- date: Oct 17 2024
   link: https://www.facebook.com/events/1219286265781456/
   moviedb: https://www.themoviedb.org/movie/660120-verdens-verste-menneske
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/1NxGNQchGBTHXJ6RShLY1IlZqWn.jpg
-  date: Oct 17 2024
   place: Bio Scandia
-- title: Love
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/1NxGNQchGBTHXJ6RShLY1IlZqWn.jpg
+  title: The Worst Person...
+- date: Sep 24 2024
   link: https://www.facebook.com/events/990094542880745/
   moviedb: https://www.themoviedb.org/movie/1228685-kjaerlighet
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dm1nMJ64sTeQBYxXV76R0u4sq9Z.jpg
-  date: Sep 24 2024
   place: Bio Tellus
-- title: About Dry Grasses
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dm1nMJ64sTeQBYxXV76R0u4sq9Z.jpg
+  title: Love
+- date: Sep 1 2024
   link: https://www.facebook.com/events/514798594259825/
   moviedb: https://www.themoviedb.org/movie/665733-kuru-otlar-ustune
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qzW11uASZLvuVWJxS8CF8mW93Xm.jpg
-  date: Sep 1 2024
   place: Bio Bristol
-- title: The Teachers' Lounge
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/qzW11uASZLvuVWJxS8CF8mW93Xm.jpg
+  title: About Dry Grasses
+- date: Jun 13 2024
   link: https://www.facebook.com/events/994973578358278/
   moviedb: https://www.themoviedb.org/movie/998022-das-lehrerzimmer
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kWXA6PfQ0PpZpoCXoeBFRciRrUw.jpg
-  date: Jun 13 2024
   place: Bio Bristol
-- title: The Settlers
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kWXA6PfQ0PpZpoCXoeBFRciRrUw.jpg
+  title: The Teachers' Lounge
+- date: Jun 4 2024
   link: https://www.facebook.com/events/2413996192322807/
   moviedb: https://www.themoviedb.org/movie/989589-los-colonos
+  place: "Bio F\xE5gel Bl\xE5"
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/399MUSZtOlJF79IyyJjl950VRY5.jpg
-  date: Jun 4 2024
-  place: Bio Fågel Blå
-- title: Io Capitano
+  title: The Settlers
+- date: May 23 2024
   link: https://www.facebook.com/events/980685976784516/
   moviedb: https://www.themoviedb.org/movie/937746-io-capitano
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg
-  date: May 23 2024
   place: Bio Zita
-- title: Crossing
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kGlZFwUQI5gAUdySNFfqGIkAF9n.jpg
+  title: Io Capitano
+- date: May 6 2024
   link: https://www.facebook.com/events/394902463417609/
   moviedb: https://www.themoviedb.org/movie/765421
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/pfkneSwi4ylfJsZeqsjzv6QV1AK.jpg
-  date: May 6 2024
   place: Bio Tellus
-- title: There's Still Tomorrow
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/pfkneSwi4ylfJsZeqsjzv6QV1AK.jpg
+  title: Crossing
+- date: Apr 24 2024
   link: https://www.facebook.com/events/2080288545691460/
   moviedb: https://www.themoviedb.org/movie/1026227-c-e-ancora-domani
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/4Hi7yjiQjokEDStT1MOj5rPgRfW.jpg
-  date: Apr 24 2024
   place: Kulturhuset
-- title: The Hypnosis
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/4Hi7yjiQjokEDStT1MOj5rPgRfW.jpg
+  title: There's Still Tomorrow
+- date: Apr 2 2024
   link: https://www.facebook.com/events/1463959997851911/
   moviedb: https://www.themoviedb.org/movie/1005972-hypnosen
+  place: "Bio F\xE5gel Bl\xE5"
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/fgR8ZnValrIEiGdeGwK1h7TjTRJ.jpg
-  date: Apr 2 2024
-  place: Bio Fågel Blå
-- title: Eyes Wide Shut
+  title: The Hypnosis
+- date: Mar 27 2024
   link: https://www.facebook.com/events/994406625446737/
   moviedb: https://www.themoviedb.org/movie/345-eyes-wide-shut
+  place: '?'
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg
-  date: Mar 27 2024
-  place: "?"
-- title: Paradise Is Burning
+  title: Eyes Wide Shut
+- date: Mar 2 2024
   link: https://www.facebook.com/events/704562901886878/
   moviedb: https://www.themoviedb.org/movie/872508-paradiset-brinner
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/5T4iGsBgD4qIzjlBK9EwqwiITeO.jpg
-  date: Mar 2 2024
   place: Bio Tellus
-- title: The Zone of Interest
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/5T4iGsBgD4qIzjlBK9EwqwiITeO.jpg
+  title: Paradise Is Burning
+- date: Feb 21 2024
   link: https://www.facebook.com/events/943526180714822/
   moviedb: https://www.themoviedb.org/movie/467244-the-zone-of-interest
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg
-  date: Feb 21 2024
   place: Bio Zita
-- title: The Boy and the Heron
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg
+  title: The Zone of Interest
+- date: Jan 25 2024
   link: https://www.facebook.com/events/1043800283587674/
   moviedb: https://www.themoviedb.org/movie/508883
+  place: "Bio F\xE5gel Bl\xE5"
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/f4oZTcfGrVTXKTWg157AwikXqmP.jpg
-  date: Jan 25 2024
-  place: Bio Fågel Blå
-- title: Fallen Leaves
+  title: The Boy and the Heron
+- date: Dec 14 2023
   link: https://www.facebook.com/events/792329269572039/
   moviedb: https://www.themoviedb.org/movie/986280-kuolleet-lehdet
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/9ayYOpeqHhxfHHUoyt3kXzznECO.jpg
-  date: Dec 14 2023
   place: Bio Zita
-- title: Anatomy of a Fall
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/9ayYOpeqHhxfHHUoyt3kXzznECO.jpg
+  title: Fallen Leaves
+- date: Nov 28 2023
   link: https://www.facebook.com/events/288475744150536/
   moviedb: https://www.themoviedb.org/movie/915935-anatomie-d-une-chute
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kQs6keheMwCxJxrzV83VUwFtHkB.jpg
-  date: Nov 28 2023
   place: Bio Tellus
-- title: Let the Right One In
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/kQs6keheMwCxJxrzV83VUwFtHkB.jpg
+  title: Anatomy of a Fall
+- date: Nov 1 2023
   link: https://www.facebook.com/events/304222369021883/
   moviedb: https://www.themoviedb.org/movie/13310-lat-den-ratte-komma-in
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg
-  date: Nov 1 2023
   place: Kulturhuset
-- title: Unruly
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/7IG4WjaAOVDlLvLUkh513HSwhW8.jpg
+  title: Let the Right One In
+- date: Oct 6 2023
   link: https://www.facebook.com/events/257779380496737/
   moviedb: https://www.themoviedb.org/movie/958234-ustyrlig
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hjqUcINfTJ83ZF06XjAuOh7OpP6.jpg
-  date: Oct 6 2023
   place: Bio Zita
-- title: L'immensità
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hjqUcINfTJ83ZF06XjAuOh7OpP6.jpg
+  title: Unruly
+- date: Sep 12 2023
   link: https://www.facebook.com/events/868793697998579/
   moviedb: https://www.themoviedb.org/movie/770724-l-immensita
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3m1CBJEYvdp6s5gPTya1DkGVx5f.jpg
-  date: Sep 12 2023
   place: Kulturhuset
-- title: Jaws
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/3m1CBJEYvdp6s5gPTya1DkGVx5f.jpg
+  title: "L'immensit\xE0"
+- date: Aug 17 2023
   link: https://www.facebook.com/events/305018382067872/
   moviedb: https://www.themoviedb.org/movie/578-jaws
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/lxM6kqilAdpdhqUl2biYp5frUxE.jpg
-  date: Aug 17 2023
   place: Summer Bio
-- title: Close
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/lxM6kqilAdpdhqUl2biYp5frUxE.jpg
+  title: Jaws
+- date: Jun 8 2023
   link: https://www.facebook.com/events/557873183204012/
   moviedb: https://www.themoviedb.org/movie/901563-close
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hjoSRso1ZslGWHowrVtBIfNT56b.jpg
-  date: Jun 8 2023
   place: Bio Zita
-- title: Exodus
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/hjoSRso1ZslGWHowrVtBIfNT56b.jpg
+  title: Close
+- date: May 16 2023
   link: https://www.facebook.com/events/785993852715271/
   moviedb: https://www.themoviedb.org/movie/1063249-exodus
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/Ab9cUIXuQpQQALe8cobDiK0pEyA.jpg
-  date: May 16 2023
   place: Kulturhuset
-- title: Corsage
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/Ab9cUIXuQpQQALe8cobDiK0pEyA.jpg
+  title: Exodus
+- date: Apr 24 2023
   link: https://www.facebook.com/events/979864346711842/
   moviedb: https://www.themoviedb.org/movie/888321-corsage
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/bhS9oqoJdMSoejB8keZpg9G5uVC.jpg
-  date: Apr 24 2023
   place: Bio Zita
-- title: EO
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/bhS9oqoJdMSoejB8keZpg9G5uVC.jpg
+  title: Corsage
+- date: Apr 13 2023
   link: https://www.facebook.com/events/231700689442563/
   moviedb: https://www.themoviedb.org/movie/785398-io
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/1MK86Vr2nf1GSYOtRd8pFvA5RM8.jpg
-  date: Apr 13 2023
   place: Bio Zita
-- title: Godland
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/1MK86Vr2nf1GSYOtRd8pFvA5RM8.jpg
+  title: EO
+- date: Mar 16 2023
   link: https://www.facebook.com/events/199064026134099/
   moviedb: https://www.themoviedb.org/movie/960206-vanskabte-land
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/s0cWPhzpKJ4kspaleMcOduHBFBw.jpg
-  date: Mar 16 2023
   place: Bio Zita
-- title: Broker
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/s0cWPhzpKJ4kspaleMcOduHBFBw.jpg
+  title: Godland
+- date: Feb 27 2023
   link: https://www.facebook.com/events/948343783200743/
   moviedb: https://www.themoviedb.org/movie/736732
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/x86xaUnxU31JYiwlO35corDEV1i.jpg
-  date: Feb 27 2023
   place: Bio Zita
-- title: Holy Spider
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/x86xaUnxU31JYiwlO35corDEV1i.jpg
+  title: Broker
+- date: Feb 13 2023
   link: https://www.facebook.com/events/942490897113982/
   moviedb: https://www.themoviedb.org/movie/889699
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6ObJ4x7m1F5QRY06WzOxNJQHwGb.jpg
-  date: Feb 13 2023
   place: Bio Zita
-- title: The Emigrants
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/6ObJ4x7m1F5QRY06WzOxNJQHwGb.jpg
+  title: Holy Spider
+- date: Feb 7 2023
   link: https://www.facebook.com/events/3246343728963775/
   moviedb: https://www.themoviedb.org/movie/40732-utvandrarna
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/aZwS9SxiVpPLoXURNoKiFnPLKfe.jpg
-  date: Feb 7 2023
   place: Bio Aspen
-- title: Decision to Leave
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/aZwS9SxiVpPLoXURNoKiFnPLKfe.jpg
+  title: The Emigrants
+- date: Jan 12 2023
   link: https://www.facebook.com/events/864254884707994/
   moviedb: https://www.themoviedb.org/movie/705996
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/TDaXKGBqJUSbCQ9XjkrJs8GYuU.jpg
-  date: Jan 12 2023
   place: Bio Zita
-- title: Cairo Conspiracy
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/TDaXKGBqJUSbCQ9XjkrJs8GYuU.jpg
+  title: Decision to Leave
+- date: Nov 24 2022
   link: https://www.facebook.com/events/477389484398618/
   moviedb: https://www.themoviedb.org/movie/788977-boy-from-heaven
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/zDRAA4UJWgQnSFxhJuefnwO74v5.jpg
-  date: Nov 24 2022
   place: Bio Zita
-- title: Tampopo
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/zDRAA4UJWgQnSFxhJuefnwO74v5.jpg
+  title: Cairo Conspiracy
+- date: Nov 8 2022
   link: https://www.facebook.com/events/674811940671576/
   moviedb: https://www.themoviedb.org/movie/11830
-  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/2XLDb3RDQmtlxt5Snnig9W4moq4.jpg
-  date: Nov 8 2022
   place: Bio Kaskad
+  poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/2XLDb3RDQmtlxt5Snnig9W4moq4.jpg
+  title: Tampopo
