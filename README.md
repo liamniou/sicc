@@ -8,7 +8,7 @@
   moviedb: https://www.themoviedb.org/movie/some_moviedb_url
   place: Bio Name
 ```
-**Date should be in format Jan (3 letters monht name) 01 2024**
+**Date should be in format Jan (3 letters month name) 01 2024**
 
 3. Commit changes
 4. Choose `Create a new branch for this commit and start a pull request`
