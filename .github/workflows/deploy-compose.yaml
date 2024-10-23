@@ -26,3 +26,5 @@ jobs:
         stack_file_name: compose.yaml
         keep_files: 5
         args: -d --remove-orphans
+        docker_registry_username: ${{ secrets.DOCKER_USERNAME }}
+        docker_registry_password: ${{ secrets.DOCKER_PASSWORD }}
