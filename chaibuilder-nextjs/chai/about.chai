@@ -1,0 +1,91 @@
+[
+  {
+    "_type": "GlobalBlock",
+    "_id": "ADztoA",
+    "globalBlock": "header",
+    "_name": "Global: Header"
+  },
+  {
+    "_type": "Box",
+    "_id": "iqdnfk",
+    "styles": "#styles:,flex justify-center items-center pb-5",
+    "tag": "div",
+    "backgroundImage": "",
+    "_parent": null
+  },
+  {
+    "styles": "#styles:,max-w-2xl rounded-lg bg-white px-8 py-4 shadow-md dark:bg-gray-800",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "zfDxBj",
+    "_name": "Box",
+    "_parent": "iqdnfk"
+  },
+  {
+    "styles": "#styles:,mt-2",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "yhCkem",
+    "_name": "Box",
+    "_parent": "zfDxBj"
+  },
+  {
+    "styles": "#styles:,mt-2 text-2xl font-bold",
+    "content": "What is SICC?",
+    "_type": "Paragraph",
+    "_id": "dnwldu",
+    "_parent": "yhCkem"
+  },
+  {
+    "styles": "#styles:,mt-2",
+    "content": "SICC is a volunteer-run collective that organises special movie screenings with English subtitles at independent cinemas across Stockholm. Our showings are targeted both at:",
+    "_type": "Paragraph",
+    "_id": "snbmgw",
+    "_parent": "yhCkem",
+    "_name": "Paragraph"
+  },
+  {
+    "styles": "#styles:,mt-2",
+    "content": "1. Stockholm's international population, who might not have a good enough level of Swedish to understand Swedish subtitles when they watch foreign language films.<br>\n2. People from all backgrounds who are looking to meet new people with a shared interest in watching films. We host a mingle after every SICC event, where you can create new connections by discussing the film you just saw, or anything else you like!\n",
+    "_type": "Paragraph",
+    "_id": "irAkzc",
+    "_parent": "yhCkem"
+  },
+  {
+    "styles": "#styles:,mt-2",
+    "content": "Having started at the end of 2022, we have organised over 30 showings at independent cinemas across the city, and our community now includes over 2500 members across our network! ",
+    "_type": "Paragraph",
+    "_id": "vlbAdu",
+    "_parent": "yhCkem"
+  },
+  {
+    "_type": "GlobalBlock",
+    "_id": "Cykkcu",
+    "globalBlock": "footer",
+    "_name": "Global: Footer"
+  },
+  {
+    "_type": "@chai/theme",
+    "_value": {
+      "bodyFont": "Poppins",
+      "headingFont": "Poppins",
+      "roundedCorners": 15,
+      "primaryColor": "#570df8",
+      "secondaryColor": "#f002b8",
+      "bodyBgDarkColor": "#031022",
+      "bodyBgLightColor": "#fcfcfc",
+      "bodyTextDarkColor": "#ffffff",
+      "bodyTextLightColor": "#000000"
+    }
+  },
+  {
+    "_type": "@chai/page-ai-context",
+    "_value": ""
+  },
+  {
+    "_type": "@chai/seo-settings",
+    "_value": {}
+  }
+]

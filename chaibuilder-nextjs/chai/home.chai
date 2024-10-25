@@ -15,7 +15,7 @@
     "_name": "Main"
   },
   {
-    "styles": "#styles:,mt-0",
+    "styles": "#styles:,mt-0 pb-16",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -61,38 +61,6 @@
     "_id": "roDwfz",
     "_parent": "soxAtA",
     "_name": "Paragraph"
-  },
-  {
-    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center pb-1",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "lalqrd",
-    "_name": "Donate",
-    "_parent": "mDnBqv"
-  },
-  {
-    "_type": "Link",
-    "_id": "yBjnpk",
-    "styles": "#styles:,",
-    "content": "",
-    "link": {
-      "type": "url",
-      "href": "https://buymeacoffee.com/",
-      "target": "_blank"
-    },
-    "_parent": "lalqrd",
-    "_name": "Donate"
-  },
-  {
-    "_type": "Button",
-    "_id": "Bvungt",
-    "content": "Support Us",
-    "styles": "#styles:my-[15px],text-white px-4 py-2 flex items-center place-self-center rounded-full bg-black xl:py-[8px] xl:my-[15px]",
-    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\"><path d=\"M17.726 13.02 14 16H9v-1h4.065a.5.5 0 0 0 .416-.777l-.888-1.332A1.995 1.995 0 0 0 10.93 12H3a1 1 0 0 0-1 1v6a2 2 0 0 0 2 2h9.639a3 3 0 0 0 2.258-1.024L22 13l-1.452-.484a2.998 2.998 0 0 0-2.822.504zm1.532-5.63c.451-.465.73-1.108.73-1.818s-.279-1.353-.73-1.818A2.447 2.447 0 0 0 17.494 3S16.25 2.997 15 4.286C13.75 2.997 12.506 3 12.506 3a2.45 2.45 0 0 0-1.764.753c-.451.466-.73 1.108-.73 1.818s.279 1.354.73 1.818L15 12l4.258-4.61z\"/></svg>",
-    "iconSize": 24,
-    "iconPos": "order-last",
-    "_parent": "yBjnpk"
   },
   {
     "_type": "Divider",
@@ -180,7 +148,7 @@
   {
     "_type": "Button",
     "_id": "cctnuD",
-    "content": "Archive",
+    "content": "Past events",
     "styles": "#styles:my-[15px],text-white px-4 py-2 flex items-center place-self-center rounded-full bg-black xl:py-[8px] xl:my-[15px]",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\"><path d=\"m21.704 5.29-2.997-2.997A.996.996 0 0 0 18 2H6a.996.996 0 0 0-.707.293L2.296 5.29A.994.994 0 0 0 2 5.999V19a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V5.999a.994.994 0 0 0-.296-.709zM6.414 4h11.172l1 1H5.414l1-1zM17 13v1H7v-4h2v2h6v-2h2v3z\"/></svg>",
     "iconSize": 24,
@@ -194,126 +162,6 @@
     "styles": "#styles:,border-gray-200",
     "_parent": "sCzzfA",
     "_name": "Main-divider"
-  },
-  {
-    "styles": "#styles:pt-[32px] pb-[16px],container mx-auto px-6 py-16 text-center xl:pt-[32px] xl:py-[0px] xl:pb-[16px]",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "CxAwpg",
-    "_name": "Work with SICC",
-    "_parent": "sCzzfA",
-    "styles_attrs": {
-      "id": "work"
-    }
-  },
-  {
-    "_type": "Box",
-    "_id": "Bydhwq",
-    "styles": "#styles:,pt-4",
-    "tag": "div",
-    "backgroundImage": "",
-    "_parent": "CxAwpg",
-    "_name": "Title"
-  },
-  {
-    "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800",
-    "content": "Work with SICC\n",
-    "_type": "Heading",
-    "_id": "biAjdk",
-    "_parent": "Bydhwq",
-    "styles_attrs": {
-      "id": "contacts"
-    }
-  },
-  {
-    "styles": "#styles:,",
-    "tag": "section",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "bzsquv",
-    "_name": "Work 2",
-    "_parent": "sCzzfA"
-  },
-  {
-    "styles": "#styles:,container mx-auto grid grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-2",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "ifCian",
-    "_name": "Box",
-    "_parent": "bzsquv"
-  },
-  {
-    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "smhCtD",
-    "_name": "Collaboration",
-    "_parent": "ifCian"
-  },
-  {
-    "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
-    "content": "For collaboration",
-    "_type": "Heading",
-    "_id": "kglmAw",
-    "_parent": "smhCtD"
-  },
-  {
-    "styles": "#styles:,mt-3",
-    "content": "Are you a cinema, film festival or other cultural institution looking to collaborate with us? Please reach out to us via this email:",
-    "_type": "Paragraph",
-    "_id": "zAeCol",
-    "_parent": "smhCtD"
-  },
-  {
-    "styles": "#styles:,bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
-    "content": "sicc@link.cf",
-    "link": {
-      "type": "url",
-      "href": "mailto:sicc@link.cf",
-      "target": "_blank"
-    },
-    "_type": "Link",
-    "_id": "ydslvd",
-    "_parent": "smhCtD"
-  },
-  {
-    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center",
-    "tag": "div",
-    "backgroundImage": "",
-    "_type": "Box",
-    "_id": "wblymD",
-    "_name": "Volunteers",
-    "_parent": "ifCian"
-  },
-  {
-    "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
-    "content": "For volunteers",
-    "_type": "Heading",
-    "_id": "qhzxwq",
-    "_parent": "wblymD"
-  },
-  {
-    "styles": "#styles:,mt-3",
-    "content": "We periodically welcome new volunteers to help with our events, operations, and much more! If you are interested in volunteering:",
-    "_type": "Paragraph",
-    "_id": "lqvbnq",
-    "_parent": "wblymD"
-  },
-  {
-    "styles": "#styles:w-auto,transform border border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:ring-gray-700 dark:hover:bg-gray-800 bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
-    "content": "Apply",
-    "link": {
-      "href": "#"
-    },
-    "_type": "Link",
-    "_id": "szwexd",
-    "_parent": "wblymD"
   },
   {
     "globalBlock": "footer",

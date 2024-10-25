@@ -1,0 +1,165 @@
+[
+  {
+    "globalBlock": "header",
+    "_type": "GlobalBlock",
+    "_id": "gCxgds",
+    "_name": "Global: Header",
+    "_parent": null
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "section",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "sCzzfA",
+    "_name": "Main"
+  },
+  {
+    "styles": "#styles:pt-[32px] pb-[16px],container mx-auto px-6 py-16 text-center xl:pt-[32px] xl:py-[0px] xl:pb-[16px]",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "CxAwpg",
+    "_name": "Work with SICC",
+    "_parent": "sCzzfA",
+    "styles_attrs": {
+      "id": "work"
+    }
+  },
+  {
+    "_type": "Box",
+    "_id": "Bydhwq",
+    "styles": "#styles:,pt-4",
+    "tag": "div",
+    "backgroundImage": "",
+    "_parent": "CxAwpg",
+    "_name": "Title"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800",
+    "content": "Work with SICC\n",
+    "_type": "Heading",
+    "_id": "biAjdk",
+    "_parent": "Bydhwq",
+    "styles_attrs": {
+      "id": "contacts"
+    }
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "section",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "bzsquv",
+    "_name": "Work 2",
+    "_parent": "sCzzfA"
+  },
+  {
+    "styles": "#styles:,container mx-auto grid grid-cols-1 gap-8 px-4 py-12 lg:grid-cols-2",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "ifCian",
+    "_name": "Box",
+    "_parent": "bzsquv"
+  },
+  {
+    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "smhCtD",
+    "_name": "Collaboration",
+    "_parent": "ifCian"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
+    "content": "For collaboration",
+    "_type": "Heading",
+    "_id": "kglmAw",
+    "_parent": "smhCtD"
+  },
+  {
+    "styles": "#styles:,mt-3",
+    "content": "Are you a cinema, film festival or other cultural institution looking to collaborate with us? Please reach out to us via this email:",
+    "_type": "Paragraph",
+    "_id": "zAeCol",
+    "_parent": "smhCtD"
+  },
+  {
+    "styles": "#styles:,bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
+    "content": "sicc@link.cf",
+    "link": {
+      "type": "url",
+      "href": "mailto:sicc@link.cf",
+      "target": "_blank"
+    },
+    "_type": "Link",
+    "_id": "ydslvd",
+    "_parent": "smhCtD"
+  },
+  {
+    "styles": "#styles:,mx-auto flex max-w-lg flex-col items-center text-center",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "wblymD",
+    "_name": "Volunteers",
+    "_parent": "ifCian"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
+    "content": "For volunteers",
+    "_type": "Heading",
+    "_id": "qhzxwq",
+    "_parent": "wblymD"
+  },
+  {
+    "styles": "#styles:,mt-3",
+    "content": "We periodically welcome new volunteers to help with our events, operations, and much more! If you are interested in volunteering:",
+    "_type": "Paragraph",
+    "_id": "lqvbnq",
+    "_parent": "wblymD"
+  },
+  {
+    "styles": "#styles:w-auto,transform border border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:ring-gray-700 dark:hover:bg-gray-800 bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
+    "content": "Apply",
+    "link": {
+      "href": "#"
+    },
+    "_type": "Link",
+    "_id": "szwexd",
+    "_parent": "wblymD"
+  },
+  {
+    "globalBlock": "footer",
+    "_type": "GlobalBlock",
+    "_id": "nicwlk",
+    "_name": "Global: Footer"
+  },
+  {
+    "_type": "@chai/theme",
+    "_value": {
+      "bodyFont": "Poppins",
+      "headingFont": "Poppins",
+      "roundedCorners": 15,
+      "primaryColor": "#570df8",
+      "secondaryColor": "#f002b8",
+      "bodyBgDarkColor": "#031022",
+      "bodyBgLightColor": "#fcfcfc",
+      "bodyTextDarkColor": "#ffffff",
+      "bodyTextLightColor": "#000000"
+    }
+  },
+  {
+    "_type": "@chai/page-ai-context",
+    "_value": ""
+  },
+  {
+    "_type": "@chai/seo-settings",
+    "_value": {}
+  }
+]
