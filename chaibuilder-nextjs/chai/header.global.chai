@@ -121,10 +121,10 @@
   },
   {
     "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-    "content": "About",
+    "content": "About Us",
     "link": {
       "type": "url",
-      "href": "#about",
+      "href": "/about",
       "target": "_self"
     },
     "_type": "Link",
@@ -136,42 +136,42 @@
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
-    "_id": "DqrpiD",
-    "_name": "Events",
+    "_id": "tbmuCe",
+    "_name": "Work",
     "_parent": "ucqkuz"
   },
   {
     "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-    "content": "Events",
+    "content": "Work with SICC",
     "link": {
-      "type": "scroll",
-      "href": "#events",
+      "type": "url",
+      "href": "/work",
       "target": "_self"
     },
     "_type": "Link",
-    "_id": "DdCpDd",
-    "_parent": "DqrpiD"
+    "_id": "ngvsAy",
+    "_parent": "tbmuCe"
   },
   {
     "styles": "#styles:,",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
-    "_id": "tbmuCe",
-    "_name": "Work with us",
+    "_id": "DqrpiD",
+    "_name": "Contact",
     "_parent": "ucqkuz"
   },
   {
     "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
-    "content": "Work with us",
+    "content": "Contact",
     "link": {
-      "type": "scroll",
-      "href": "#work",
+      "type": "url",
+      "href": "/contact",
       "target": "_self"
     },
     "_type": "Link",
-    "_id": "ngvsAy",
-    "_parent": "tbmuCe"
+    "_id": "DdCpDd",
+    "_parent": "DqrpiD"
   },
   {
     "styles": "#styles:col-span-2,md:col-span-2",
