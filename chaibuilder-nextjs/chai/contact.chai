@@ -48,16 +48,23 @@
   },
   {
     "styles": "#styles:,mt-2 hover:underline",
-    "content": "<b><a href=\"https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw\" target=\"_blank\">https://linktr.ee/stockholminternationalcinema</a></b>",
+    "content": "🔗 <b><a href=\"https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw\" target=\"_blank\">https://linktr.ee/stockholminternationalcinema</a></b>",
     "_type": "Paragraph",
     "_id": "irAkzc",
     "_parent": "yhCkem"
   },
   {
     "styles": "#styles:,mt-2",
-    "content": "To speak about something else, contact SICC at SICC@EMAIL\n",
+    "content": "To speak about something else, contact SICC at:",
     "_type": "Paragraph",
     "_id": "wdudzw",
+    "_parent": "yhCkem"
+  },
+  {
+    "styles": "#styles:,mt-2 hover:underline",
+    "content": "💌 <b><a href=\"mailto:team@stockholminternationalcinema.com\" target=\"_blank\">team@stockholminternationalcinema.com</a></b>",
+    "_type": "Paragraph",
+    "_id": "Aiubyy",
     "_parent": "yhCkem"
   },
   {

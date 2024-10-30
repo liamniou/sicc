@@ -90,10 +90,10 @@
   },
   {
     "styles": "#styles:,bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
-    "content": "sicc@link.cf",
+    "content": "team@stockholminternationalcinema.com",
     "link": {
       "type": "url",
-      "href": "mailto:sicc@link.cf",
+      "href": "mailto:team@stockholminternationalcinema.com",
       "target": "_blank"
     },
     "_type": "Link",

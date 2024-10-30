@@ -94,8 +94,8 @@
     "content": "",
     "link": {
       "type": "url",
-      "href": "mailto:sicc@link.cf",
-      "target": "_self"
+      "href": "mailto:team@stockholminternationalcinema.com",
+      "target": "_blank"
     },
     "_type": "Link",
     "_id": "xbldDg",
@@ -113,7 +113,7 @@
     "_type": "Span",
     "_id": "pwiidl",
     "styles": "#styles:,",
-    "content": "sicc@link.cf",
+    "content": "team@stockholminternationalcinema.com",
     "_parent": "BCAktm"
   },
   {
