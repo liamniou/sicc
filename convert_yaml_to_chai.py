@@ -116,7 +116,7 @@ def main():
         else:
             past_events.append(entry)
     if len(upcoming_events) >= 2:
-        main_page_events = upcoming_events[:2] + past_events[:2]
+        main_page_events = upcoming_events[-2:] + past_events[:2]
     elif len(upcoming_events) == 1:
         main_page_events = upcoming_events + past_events[:3]
     else:
