@@ -5,6 +5,7 @@ on:
     branches:
       - main
     paths:
+      - 'convert_yaml_to_chai.py'
       - 'events.yaml'
       - 'chaibuilder-nextjs/**'
 

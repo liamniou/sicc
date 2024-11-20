@@ -1,18 +1,7 @@
 [
   {
     "_type": "Card",
-    "_id": "k7FRGS",
-    "link": "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw",
-    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nhuPYq6jWlSvbaOLls0RFmXxKw4.jpg",
-    "date": "Dec 8 2024",
-    "place": "Bio Zita",
-    "_parent": "Cyxtbm",
-    "m_title": "The Swedish Torpedo",
-    "overlayed": "no"
-  },
-  {
-    "_type": "Card",
-    "_id": "dgGW8b",
+    "_id": "7ttip9",
     "link": "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sFMrCjniwAG3FMB7Etp4Nhxlplb.jpg",
     "date": "Dec 1 2024",
@@ -23,7 +12,18 @@
   },
   {
     "_type": "Card",
-    "_id": "XDz9TS",
+    "_id": "m35I6s",
+    "link": "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw",
+    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dM75IPA1B1tgEpXMg6rynbgJo38.jpg",
+    "date": "Nov 25 2024",
+    "place": "Bio Zita",
+    "_parent": "Cyxtbm",
+    "m_title": "Woman of...",
+    "overlayed": "no"
+  },
+  {
+    "_type": "Card",
+    "_id": "5Jcnrd",
     "link": "https://fb.me/e/6aUoQMshr",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xMZieoxiQ1hb5zraZlhzcvU7MGN.jpg",
     "date": "Nov 19 2024",
@@ -34,7 +34,7 @@
   },
   {
     "_type": "Card",
-    "_id": "6b7iAW",
+    "_id": "bFIHwO",
     "link": "https://fb.me/e/6UEmjdtuQ",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/tM0mUO9E0P2V1c3mc7co1ZHgdBq.jpg",
     "date": "Nov 13 2024",
