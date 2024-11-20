@@ -1,9 +1,13 @@
 - date: Dec 8 2024
   moviedb: https://www.themoviedb.org/movie/1035657-den-svenska-torpeden
   place: Bio Zita
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/nhuPYq6jWlSvbaOLls0RFmXxKw4.jpg
+  title: The Swedish Torpedo
 - date: Dec 1 2024
   moviedb: https://www.themoviedb.org/movie/964318-kalak
   place: Bio Bristol
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/sFMrCjniwAG3FMB7Etp4Nhxlplb.jpg
+  title: Kalak
 - date: Nov 25 2024
   moviedb: https://www.themoviedb.org/movie/1156130-kobieta-z
   place: Bio Zita
