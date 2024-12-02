@@ -19,11 +19,12 @@ jobs:
     - name: Deploy compose
       uses: sulthonzh/docker-remote-deployment-action@v0.1.2-beta
       with:
-        remote_docker_host: ubuntu@207.127.93.93
+        remote_docker_host: lestar@lestar.ddns.net
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         ssh_public_key: ${{ secrets.SSH_PUBLIC_KEY }}
+        remote_docker_port: ${{ secrets.HOME_SSH_PORT }}
         copy_stack_file: true
-        deploy_path: /home/ubuntu/containers/sicc
+        deploy_path: /home/lestar/containers/sicc
         stack_file_name: compose.yaml
         keep_files: 5
         args: up -d --remove-orphans
