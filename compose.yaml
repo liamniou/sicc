@@ -3,7 +3,7 @@ services:
     image: liamnou/sicc:v1.19
     container_name: sicc
     ports:
-      - "3000:3000"
+      - 3030:3000
     restart: unless-stopped
     networks:
       - caddy-network
