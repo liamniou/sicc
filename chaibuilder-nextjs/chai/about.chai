@@ -61,6 +61,262 @@
     "_parent": "yhCkem"
   },
   {
+    "styles": "#styles:,mt-2",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "fimyum",
+    "_name": "Box",
+    "_parent": "zfDxBj"
+  },
+  {
+    "styles": "#styles:,mt-2 text-2xl font-bold",
+    "content": "FAQ",
+    "_type": "Paragraph",
+    "_id": "mwmjrB",
+    "_parent": "fimyum"
+  },
+  {
+    "styles": "#styles:,mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:mt-16 xl:mt-[16px]",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "Bwyxuy",
+    "_name": "Box",
+    "_parent": "fimyum"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "svykxz",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "vmgzkw",
+    "_name": "Box",
+    "_parent": "svykxz"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "What is SICC?",
+    "_type": "Heading",
+    "_id": "xobotq",
+    "_parent": "vmgzkw"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "SICC is a volunteer based group that works with independent cinemas around Stockholm to arrange special screenings of international films with English subtitles. Our events also provide opportunities to network and mingle after the film. Our screenings are open to all - anyone is welcome to join!",
+    "_type": "Paragraph",
+    "_id": "vqCjwh",
+    "_parent": "vmgzkw"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "lqyzqv",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "wizDzd",
+    "_name": "Box",
+    "_parent": "lqyzqv"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "What does SICC do?",
+    "_type": "Heading",
+    "_id": "AjbCvj",
+    "_parent": "wizDzd"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "After arranging the screening with the cinemas, SICC promotes the event through our channels to reach as many people as possible. During the screenings themselves, our volunteers host the events before and after the film to create a welcoming atmosphere.",
+    "_type": "Paragraph",
+    "_id": "Ctdynx",
+    "_parent": "wizDzd"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "cAlDlf",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "sbrmDc",
+    "_name": "Box",
+    "_parent": "cAlDlf"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "What are the parking and public transport options? ",
+    "_type": "Heading",
+    "_id": "vsnrpq",
+    "_parent": "sbrmDc"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "Before the film, a SICC volunteer will make a short introduction to the event to welcome new joiners and tell you where we plan to meet after the film. After the film finishes, we gather in the cinema bar or a close by pub for a mingle. The focus is on meeting new people - there is no pressure to chat about the film if you don’t want to!",
+    "_type": "Paragraph",
+    "_id": "vBnrAv",
+    "_parent": "sbrmDc"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "orwmzk",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "DBavmf",
+    "_name": "Box",
+    "_parent": "orwmzk"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "How does SICC reach our audience?",
+    "_type": "Heading",
+    "_id": "bfqxlj",
+    "_parent": "DBavmf"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "As well as this website, we have an active Facebook group, Meetup page and Instagram page. We are currently working on setting up our email newsletter.",
+    "_type": "Paragraph",
+    "_id": "aqiDhv",
+    "_parent": "DBavmf"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "dBAlsa",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "pwtDfs",
+    "_name": "Box",
+    "_parent": "dBAlsa"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "Who does SICC work with?",
+    "_type": "Heading",
+    "_id": "pDazck",
+    "_parent": "pwtDfs"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "SICC works with independent cinemas all over Stockholm, in addition to several film festivals and other cultural institutions. If you would likewould you like to collaborate with us please get in touch!",
+    "_type": "Paragraph",
+    "_id": "ihawah",
+    "_parent": "pwtDfs"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "AlcvcD",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "tpwnwq",
+    "_name": "Box",
+    "_parent": "AlcvcD"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "How can I help out?",
+    "_type": "Heading",
+    "_id": "gfdvbd",
+    "_parent": "tpwnwq"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "Running on volunteer efforts, SICC is continually looking for volunteers to help in various positions. You can read about these and apply on the Contact Us page of this website.<br>\n<b>NOTE</b> - we currently don’t host the volunteer onboarding sessions very frequently, but we will get in touch when the next session is scheduled!\n",
+    "_type": "Paragraph",
+    "_id": "AueChb",
+    "_parent": "tpwnwq"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "kAazeq",
+    "_name": "Box",
+    "_parent": "Bwyxuy"
+  },
+  {
+    "styles": "#styles:,",
+    "tag": "div",
+    "backgroundImage": "",
+    "_type": "Box",
+    "_id": "ifcqnh",
+    "_name": "Box",
+    "_parent": "kAazeq"
+  },
+  {
+    "level": "h2",
+    "styles": "#styles:,text-xl font-semibold",
+    "content": "I’m from an organisation that wants to work with SICC!",
+    "_type": "Heading",
+    "_id": "aaxDAc",
+    "_parent": "ifcqnh"
+  },
+  {
+    "styles": "#styles:,mt-2 text-sm",
+    "content": "Fantastic! You can contact us through the \"Contact Us\" page of this website, or alternatively through Instagram.",
+    "_type": "Paragraph",
+    "_id": "mjknmq",
+    "_parent": "ifcqnh"
+  },
+  {
     "_type": "GlobalBlock",
     "_id": "Cykkcu",
     "globalBlock": "footer",
