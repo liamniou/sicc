@@ -47,7 +47,7 @@
     "_name": "Paragraph"
   },
   {
-    "styles": "#styles:,mt-2",
+    "styles": "#styles:,mt-2 pl-4",
     "content": "1. Stockholm's international population, who might not have a good enough level of Swedish to understand Swedish subtitles when they watch foreign language films.<br>\n2. People from all backgrounds who are looking to meet new people with a shared interest in watching films. We host a mingle after every SICC event, where you can create new connections by discussing the film you just saw, or anything else you like!\n",
     "_type": "Paragraph",
     "_id": "irAkzc",

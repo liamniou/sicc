@@ -128,7 +128,9 @@
     "styles": "#styles:w-auto,transform border border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:ring-gray-700 dark:hover:bg-gray-800 bg-primary-600 hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
     "content": "Apply",
     "link": {
-      "href": "#"
+      "type": "url",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLScLJ54-EA3VKsHTbY9-ZXJoOswEm1IWLV3yxVLUZHI3bP705A/viewform",
+      "target": "_blank"
     },
     "_type": "Link",
     "_id": "szwexd",
