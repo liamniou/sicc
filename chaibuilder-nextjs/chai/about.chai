@@ -14,7 +14,7 @@
     "_parent": null
   },
   {
-    "styles": "#styles:,max-w-2xl rounded-lg bg-white px-8 py-4 shadow-md dark:bg-gray-800",
+    "styles": "#styles:,max-w-4xl rounded-lg bg-white px-8 py-4 shadow-md",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -28,11 +28,11 @@
     "backgroundImage": "",
     "_type": "Box",
     "_id": "yhCkem",
-    "_name": "Box",
+    "_name": "What is SICC",
     "_parent": "zfDxBj"
   },
   {
-    "styles": "#styles:,mt-2 text-2xl font-bold",
+    "styles": "#styles:,mt-2 text-2xl font-bold text-center",
     "content": "What is SICC?",
     "_type": "Paragraph",
     "_id": "dnwldu",
@@ -61,16 +61,16 @@
     "_parent": "yhCkem"
   },
   {
-    "styles": "#styles:,mt-2",
+    "styles": "#styles:,mt-2 xl:mt-[24px]",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
     "_id": "fimyum",
-    "_name": "Box",
+    "_name": "FAQ",
     "_parent": "zfDxBj"
   },
   {
-    "styles": "#styles:,mt-2 text-2xl font-bold",
+    "styles": "#styles:,mt-2 text-2xl font-bold flex justify-center",
     "content": "FAQ",
     "_type": "Paragraph",
     "_id": "mwmjrB",
@@ -278,7 +278,7 @@
   },
   {
     "styles": "#styles:,mt-2 text-sm",
-    "content": "Running on volunteer efforts, SICC is continually looking for volunteers to help in various positions. You can read about these and apply on the Contact Us page of this website.<br>\n<b>NOTE</b> - we currently don’t host the volunteer onboarding sessions very frequently, but we will get in touch when the next session is scheduled!\n",
+    "content": "Running on volunteer efforts, SICC is continually looking for volunteers to help in various positions. You can read about these and apply <a href=\"./work\" class=\"underline\">here</a>.<br>\n<b>NOTE</b> - we currently don’t host the volunteer onboarding sessions very frequently, but we will get in touch when the next session is scheduled!\n",
     "_type": "Paragraph",
     "_id": "AueChb",
     "_parent": "tpwnwq"
@@ -311,7 +311,7 @@
   },
   {
     "styles": "#styles:,mt-2 text-sm",
-    "content": "Fantastic! You can contact us through the \"Contact Us\" page of this website, or alternatively through Instagram.",
+    "content": "Fantastic! You can contact us through <a href=\"./work\" class=\"underline\">this page</a>, or alternatively through <a href =\"https://www.instagram.com/stockholminternationalcinema/\" class=\"underline\">Instagram</a>.",
     "_type": "Paragraph",
     "_id": "mjknmq",
     "_parent": "ifcqnh"
