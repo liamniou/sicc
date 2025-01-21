@@ -1,21 +1,26 @@
+- date: Jan 31 2025
+  moviedb: https://www.themoviedb.org/movie/1231035-gloria
+  place: Kulturhuset
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/mtmL0BYdJwaWzlBUL1vIiF1BULW.jpg
+  title: Gloria!
 - date: Dec 8 2024
+  link: https://fb.me/e/59XyLQICm
   moviedb: https://www.themoviedb.org/movie/1035657-den-svenska-torpeden
   place: Bio Zita
   poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/nhuPYq6jWlSvbaOLls0RFmXxKw4.jpg
   title: The Swedish Torpedo
-  link: https://fb.me/e/59XyLQICm
 - date: Dec 1 2024
+  link: https://www.facebook.com/events/1086918736304493
   moviedb: https://www.themoviedb.org/movie/964318-kalak
   place: Bio Bristol
   poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/sFMrCjniwAG3FMB7Etp4Nhxlplb.jpg
   title: Kalak
-  link: https://www.facebook.com/events/1086918736304493
 - date: Nov 25 2024
+  link: https://www.facebook.com/events/914509274200830
   moviedb: https://www.themoviedb.org/movie/1156130-kobieta-z
   place: Bio Zita
   poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/dM75IPA1B1tgEpXMg6rynbgJo38.jpg
   title: Woman of...
-  link: https://www.facebook.com/events/914509274200830
 - date: Nov 19 2024
   link: https://fb.me/e/6aUoQMshr
   moviedb: https://www.themoviedb.org/movie/34070-sanger-fran-andra-vaningen
@@ -91,9 +96,9 @@
 - date: Mar 27 2024
   link: https://www.facebook.com/events/994406625446737/
   moviedb: https://www.themoviedb.org/movie/345-eyes-wide-shut
-  place: "Filmhuset"
+  place: Filmhuset
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/knEIz1eNGl5MQDbrEAVWA7iRqF9.jpg
-  title: "SICC Visits: Eyes Wide Shut"
+  title: 'SICC Visits: Eyes Wide Shut'
 - date: Mar 2 2024
   link: https://www.facebook.com/events/704562901886878/
   moviedb: https://www.themoviedb.org/movie/872508-paradiset-brinner
@@ -147,7 +152,7 @@
   moviedb: https://www.themoviedb.org/movie/578-jaws
   place: Summer Bio
   poster_url: https://media.themoviedb.org/t/p/w600_and_h900_bestv2/lxM6kqilAdpdhqUl2biYp5frUxE.jpg
-  title: "SICC Visits: Jaws"
+  title: 'SICC Visits: Jaws'
 - date: Jun 8 2023
   link: https://www.facebook.com/events/557873183204012/
   moviedb: https://www.themoviedb.org/movie/901563-close
