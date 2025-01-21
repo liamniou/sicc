@@ -68,6 +68,22 @@
     "_parent": "yhCkem"
   },
   {
+    "styles": "#styles:,mt-2",
+    "content": "Is there a film you would like us to show? Add it to our Poll.ly:\n",
+    "_type": "Paragraph",
+    "_id": "ingwnc",
+    "_parent": "yhCkem",
+    "_name": "polly"
+  },
+  {
+    "_type": "CustomHTML",
+    "_id": "cdvonf",
+    "styles": "#styles:,",
+    "htmlCode": "<blockquote class=\"pollly-embed\" data-id=\"WnCKzSSikBme9GuI4WCT\">What film should we show?</blockquote><script src=\"https://poll.ly/embed.js\"></script>",
+    "_parent": "yhCkem",
+    "_name": "polly"
+  },
+  {
     "_type": "GlobalBlock",
     "_id": "Cykkcu",
     "globalBlock": "footer",
