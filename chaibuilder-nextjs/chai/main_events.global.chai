@@ -1,8 +1,19 @@
 [
   {
     "_type": "Card",
-    "_id": "ajMPiz",
-    "link": "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw",
+    "_id": "MANCvs",
+    "link": "https://kulturhusetstadsteatern.se/bio/brutalist-stockholm-international-cinema-collective",
+    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lKkWcdqDEPEMVmLxRJGwJxJp5XB.jpg",
+    "date": "Feb 18 2025",
+    "place": "Klarabiografen",
+    "_parent": "Cyxtbm",
+    "m_title": "The Brutalist",
+    "overlayed": "no"
+  },
+  {
+    "_type": "Card",
+    "_id": "0ciZeB",
+    "link": "https://sicc-emilia-perez-2024.confetti.events/?fbclid=IwY2xjawIVm1xleHRuA2FlbQIxMAABHd0ZhYlCudS2mzYrlxtl0-2QWfq8o3wlD8QiwzCAO9BVdnx2QBwpEoaEhw_aem_6KIRktEIDsOMGShtPS6POw",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7seqaCaaXDNUHOx4DqwpoOH8pPa.jpg",
     "date": "Feb 12 2025",
     "place": "Bio Scandia",
@@ -12,35 +23,24 @@
   },
   {
     "_type": "Card",
-    "_id": "Ls27pd",
-    "link": "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw",
+    "_id": "w1fMmc",
+    "link": "https://fb.me/e/9gNZbCKAO",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mtmL0BYdJwaWzlBUL1vIiF1BULW.jpg",
     "date": "Jan 31 2025",
     "place": "Klarabiografen",
     "_parent": "Cyxtbm",
     "m_title": "Gloria!",
-    "overlayed": "no"
+    "overlayed": "yes"
   },
   {
     "_type": "Card",
-    "_id": "0BVhpF",
+    "_id": "M6x5N6",
     "link": "https://fb.me/e/59XyLQICm",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nhuPYq6jWlSvbaOLls0RFmXxKw4.jpg",
     "date": "Dec 8 2024",
     "place": "Bio Zita",
     "_parent": "Cyxtbm",
     "m_title": "The Swedish Torpedo",
-    "overlayed": "yes"
-  },
-  {
-    "_type": "Card",
-    "_id": "G752IV",
-    "link": "https://www.facebook.com/events/1086918736304493",
-    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/sFMrCjniwAG3FMB7Etp4Nhxlplb.jpg",
-    "date": "Dec 1 2024",
-    "place": "Bio Bristol",
-    "_parent": "Cyxtbm",
-    "m_title": "Kalak",
     "overlayed": "yes"
   }
 ]
