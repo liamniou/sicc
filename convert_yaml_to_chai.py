@@ -60,10 +60,9 @@ def transform_yaml_data_for_main(input_data):
         date = datetime.strptime(entry.get("date"), "%b %d %Y")
         if date >= datetime.now():
             overlayed = "no"
-            link = "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw"
+            link = entry.get("link", "https://linktr.ee/stockholminternationalcinema?fbclid=PAZXh0bgNhZW0CMTEAAaYqvNB_0VmVLUNqMeQY8TeCXsE7TjVUyT7386TAtVZC-zJMFv-IojXxmqc_aem_cAkyAH35ta87jcGScWn_fw")
         else:
             overlayed = "yes"
-            link = entry.get("link", "")
         new_entry = {
             "_type": "Card",
             "_id": generate_random_id(),
