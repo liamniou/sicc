@@ -1,7 +1,18 @@
 [
   {
     "_type": "Card",
-    "_id": "FVzCVy",
+    "_id": "HgbR9s",
+    "link": "https://tellusbio.nu/program/no-other-land-english/",
+    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/s7XYieuZg9kMe07i9VI4bfGN4Pw.jpg",
+    "date": "Feb 25 2025",
+    "place": "Bio Tellus",
+    "_parent": "Cyxtbm",
+    "m_title": "No Other Land",
+    "overlayed": "no"
+  },
+  {
+    "_type": "Card",
+    "_id": "LUZKG6",
     "link": "https://kulturhusetstadsteatern.se/bio/brutalist-stockholm-international-cinema-collective",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lKkWcdqDEPEMVmLxRJGwJxJp5XB.jpg",
     "date": "Feb 18 2025",
@@ -12,35 +23,24 @@
   },
   {
     "_type": "Card",
-    "_id": "u11l5Q",
+    "_id": "cVZAA8",
     "link": "https://sicc-emilia-perez-2024.confetti.events/?fbclid=IwY2xjawIVm1xleHRuA2FlbQIxMAABHd0ZhYlCudS2mzYrlxtl0-2QWfq8o3wlD8QiwzCAO9BVdnx2QBwpEoaEhw_aem_6KIRktEIDsOMGShtPS6POw",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/7seqaCaaXDNUHOx4DqwpoOH8pPa.jpg",
     "date": "Feb 12 2025",
-    "place": "Bio Scandia",
+    "place": "Bio Skandia",
     "_parent": "Cyxtbm",
     "m_title": "Emilia Perez",
-    "overlayed": "no"
+    "overlayed": "yes"
   },
   {
     "_type": "Card",
-    "_id": "kgJTig",
+    "_id": "JAythe",
     "link": "https://fb.me/e/9gNZbCKAO",
     "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mtmL0BYdJwaWzlBUL1vIiF1BULW.jpg",
     "date": "Jan 31 2025",
     "place": "Klarabiografen",
     "_parent": "Cyxtbm",
     "m_title": "Gloria!",
-    "overlayed": "yes"
-  },
-  {
-    "_type": "Card",
-    "_id": "2tFe79",
-    "link": "https://fb.me/e/59XyLQICm",
-    "posterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/nhuPYq6jWlSvbaOLls0RFmXxKw4.jpg",
-    "date": "Dec 8 2024",
-    "place": "Bio Zita",
-    "_parent": "Cyxtbm",
-    "m_title": "The Swedish Torpedo",
     "overlayed": "yes"
   }
 ]
