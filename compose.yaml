@@ -1,6 +1,6 @@
 services:
   sicc:
-    image: liamnou/sicc:v1.33
+    image: liamnou/sicc:v1.34
     container_name: sicc
     ports:
       - 3030:3000
