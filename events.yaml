@@ -1,11 +1,15 @@
 - date: Jun 17 2025
-  moviedb: https://www.themoviedb.org/movie/1064213-anora
   link: https://sicc-anora.confetti.events/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBEwS0VjSUlhVWV1azVKSEU0agEeDtBX6N1sShQ75grrS5cDqof0IIDejAnbyqfRs26-cCS5fX_2E161hCZV1EQ_aem_tlafilr4_sWkXWCXOFN8Rg
+  moviedb: https://www.themoviedb.org/movie/1064213-anora
   place: Bio Skandia
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/7MrgIUeq0DD2iF7GR6wqJfYZNeC.jpg
+  title: Anora
 - date: Jun 9 2025
-  moviedb: https://www.themoviedb.org/movie/1257407-ljosbrot
   link: https://zita.se/nar-ljuset-bryts?fbclid=IwY2xjawKqhwpleHRuA2FlbQIxMABicmlkETBLRWNJSWFVZXVrNUpIRTRqAR4aPtat5wliLsJs22JpsbMtvytfwEenp8nS66cZDLtfwTNi4BZY64Ts5dktIQ_aem_xT5aholuU500AvvJ7ZAuDg
+  moviedb: https://www.themoviedb.org/movie/1257407-ljosbrot
   place: Bio Zita
+  poster_url: https://image.tmdb.org/t/p/w600_and_h900_bestv2/aTzSagrNROn3oR7gsoQyD5yP2XG.jpg
+  title: When the Light Breaks
 - date: May 13 2025
   link: https://tellusbio.nu/program/universal-language-english
   moviedb: https://www.themoviedb.org/movie/988397-une-langue-universelle
