@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:static": "node ../scripts/generate-static.js",
+    "serve:static": "node ../scripts/serve-static.js",
+    "deploy": "node ../scripts/deploy-to-github-pages.js",
+    "deploy:force": "FORCE_DEPLOY=yes node ../scripts/deploy-to-github-pages.js"
   },
   "dependencies": {
     "@chaibuilder/runtime": "^0.2.10",
