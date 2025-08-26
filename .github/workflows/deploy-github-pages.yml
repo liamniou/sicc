@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd chaibuilder-nextjs
-          npm install
+          npm ci
           
       - name: Setup Pages
         uses: actions/configure-pages@v4
