@@ -1,0 +1,89 @@
+name: Test Static Site Generation
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'chaibuilder-nextjs/chai/**'
+      - 'chaibuilder-nextjs/blocks/**'
+      - 'chaibuilder-nextjs/app/**'
+      - 'chaibuilder-nextjs/package.json'
+      - 'scripts/generate-static.js'
+      - '.github/workflows/test-static-build.yml'
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: 'chaibuilder-nextjs/package.json'
+    
+    - name: Install dependencies
+      run: |
+        echo "📦 Installing Node.js dependencies..."
+        cd chaibuilder-nextjs
+        npm install
+        echo "✅ Dependencies installed successfully!"
+    
+    - name: Generate static site from ChaiBuilder
+      run: |
+        echo "🔧 Testing static HTML generation from ChaiBuilder files..."
+        
+        # Check if we have ChaiBuilder files
+        if ls chaibuilder-nextjs/chai/*.chai 1> /dev/null 2>&1; then
+          echo "📊 Found ChaiBuilder page files:"
+          ls -la chaibuilder-nextjs/chai/*.chai
+        else
+          echo "❌ No ChaiBuilder files found!"
+          exit 1
+        fi
+        
+        # Generate static HTML
+        cd chaibuilder-nextjs
+        npm run build:static
+        
+        echo "✅ Static site generated successfully!"
+    
+    - name: Prepare static files
+      run: |
+        echo "📁 Preparing static files for artifact..."
+        mkdir -p build-output
+        
+        # Copy generated static site
+        if [ -d "static-site" ]; then
+          cp -r static-site/* build-output/
+          echo "✅ Static site files copied to build-output/"
+        else
+          echo "❌ static-site directory not found!"
+          exit 1
+        fi
+        
+        # Copy favicon if exists
+        if [ -f "chaibuilder-nextjs/app/favicon.ico" ]; then
+          cp chaibuilder-nextjs/app/favicon.ico build-output/
+          echo "✅ Favicon copied"
+        fi
+        
+        echo "📋 Generated site structure:"
+        ls -la build-output/
+    
+    - name: Upload static site artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: static-site-build-${{ github.event.number }}
+        path: build-output/
+        retention-days: 30
+    
+    - name: Build summary
+      run: |
+        echo "🎉 Static site generation test completed successfully!"
+        echo "📁 Artifact 'static-site-build-${{ github.event.number }}' uploaded"
+        echo "🔍 You can download and review the generated static files from the Actions tab"
