@@ -47,7 +47,7 @@
     "_parent": "mDnBqv"
   },
   {
-    "styles": "#styles:,flex justify-center text-3xl font-semibold mt-4 text-center",
+    "styles": "#styles:,flex justify-center text-3xl font-semibold mt-4 text-center text-gray-900 dark:text-white",
     "content": "Stockholm International Cinema Collective",
     "_type": "Paragraph",
     "_id": "uraevv",
@@ -55,7 +55,7 @@
     "_name": "Title"
   },
   {
-    "styles": "#styles:,mt-3 text-center",
+    "styles": "#styles:,mt-3 text-center text-gray-700 dark:text-gray-200",
     "content": "SICC is a volunteer-run community that organises English-subtitled screenings of international films at independent cinemas around Stockholm. Welcome!",
     "_type": "Paragraph",
     "_id": "roDwfz",
