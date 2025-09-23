@@ -1,5 +1,13 @@
 name: Test Static Site Generation
 
+# This workflow:
+# 1. Converts events.yaml to ChaiBuilder .chai files using TheMovieDB API
+# 2. Generates static HTML from ChaiBuilder files  
+# 3. Tests the complete build process
+# 
+# Required secrets:
+#   - MOVIEDB_API_KEY: API key for TheMovieDB (https://www.themoviedb.org/settings/api)
+
 on:
   pull_request:
     branches: [ main ]
@@ -9,6 +17,8 @@ on:
       - 'chaibuilder-nextjs/app/**'
       - 'chaibuilder-nextjs/package.json'
       - 'scripts/generate-static.js'
+      - 'events.yaml'
+      - 'convert_yaml_to_chai.py'
       - '.github/workflows/test-static-build.yml'
 
 jobs:
@@ -18,6 +28,42 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install Python dependencies
+      run: |
+        echo "🐍 Installing Python dependencies..."
+        pip install requests pyyaml
+        echo "✅ Python dependencies installed successfully!"
+    
+    - name: Convert YAML events to ChaiBuilder format
+      env:
+        MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
+      run: |
+        echo "🔄 Converting events.yaml to ChaiBuilder .chai files..."
+        
+        # Check if events.yaml exists
+        if [ ! -f "events.yaml" ]; then
+          echo "❌ events.yaml not found!"
+          exit 1
+        fi
+        
+        # Run the conversion script
+        python convert_yaml_to_chai.py
+        
+        echo "✅ YAML to Chai conversion completed!"
+        
+        # Show what was generated
+        if [ -f "chaibuilder-nextjs/chai/main_events.global.chai" ]; then
+          echo "📊 Generated main_events.global.chai"
+        fi
+        if [ -f "chaibuilder-nextjs/chai/events.global.chai" ]; then
+          echo "📊 Generated events.global.chai"
+        fi
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -85,5 +131,11 @@ jobs:
     - name: Build summary
       run: |
         echo "🎉 Static site generation test completed successfully!"
+        echo ""
+        echo "📋 Process summary:"
+        echo "  1. ✅ Converted events.yaml to ChaiBuilder .chai files"
+        echo "  2. ✅ Generated static HTML from ChaiBuilder files"
+        echo "  3. ✅ Prepared static site for deployment"
+        echo ""
         echo "📁 Artifact 'static-site-build-${{ github.event.number }}' uploaded"
         echo "🔍 You can download and review the generated static files from the Actions tab"

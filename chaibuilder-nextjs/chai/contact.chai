@@ -69,12 +69,12 @@
   },
   {
     "styles": "#styles:,mt-2 text-gray-700 dark:text-gray-200",
-    "content": "Is there a film you would like us to show? Add it to our <a href="https://poll.ly/WnCKzSSikBme9GuI4WCT?fbclid=IwY2xjawMmJsBleHRuA2FlbQIxMABicmlkETFtNUZsS2NVRkhwSVdJeGpOAR6R5BRw82FKDsKsbzH33724GOajPorINtYccNREjDABbiQ6_f_i1e_Dzog6WQ_aem_hd5VQ-8MBlWUcHel_i4OaQ">Poll.ly</a>",
+    "content": "Is there a film you would like us to show? Add it to our <a href=\"https://poll.ly/WnCKzSSikBme9GuI4WCT?fbclid=IwY2xjawMmJsBleHRuA2FlbQIxMABicmlkETFtNUZsS2NVRkhwSVdJeGpOAR6R5BRw82FKDsKsbzH33724GOajPorINtYccNREjDABbiQ6_f_i1e_Dzog6WQ_aem_hd5VQ-8MBlWUcHel_i4OaQ\"><b>Poll.ly</b></a>",
     "_type": "Paragraph",
     "_id": "ingwnc",
     "_parent": "yhCkem",
     "_name": "polly"
-  }
+  },
   {
     "_type": "GlobalBlock",
     "_id": "Cykkcu",
