@@ -112,7 +112,7 @@ function renderChaiBlocksToHTML(blocks, pageName) {
   htmlParts.push('    .font-geist-mono { font-family: "Poppins", monospace; }');
   htmlParts.push('  </style>');
   htmlParts.push('</head>');
-  htmlParts.push('<body class="antialiased bg-gray-50 dark:bg-gray-900">');
+  htmlParts.push('<body class="antialiased bg-gray-50">');
   
   // Render the tree structure
   tree.forEach(rootBlock => {
@@ -457,8 +457,8 @@ function renderCard(block) {
   
   // Use original ChaiBuilder Card styling
   const boxClass = overlayed === "yes" 
-    ? "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800 opacity-50"
-    : "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800";
+    ? "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg opacity-50"
+    : "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg";
   
   let cardHTML = `<a href="${link}" target="_blank" class="">`;
   cardHTML += `<div class="${boxClass}">`;
@@ -473,17 +473,17 @@ function renderCard(block) {
   
   // Title
   if (m_title) {
-    cardHTML += `<span class="block text-2xl font-bold text-gray-800 dark:text-white xl:text-[20px]" data-ai-key="content">${m_title}</span>`;
+    cardHTML += `<span class="block text-2xl font-bold text-gray-800 xl:text-[20px]" data-ai-key="content">${m_title}</span>`;
   }
   
   // Date
   if (date) {
-    cardHTML += `<span class="block dark:text-white" data-ai-key="content">${date}</span>`;
+    cardHTML += `<span class="block text-black" data-ai-key="content">${date}</span>`;
   }
   
   // Place
   if (place) {
-    cardHTML += `<span class="text-sm text-gray-700 dark:text-gray-200" data-ai-key="content">📍 ${place}</span>`;
+    cardHTML += `<span class="text-sm text-gray-700" data-ai-key="content">📍 ${place}</span>`;
   }
   
   cardHTML += '</div>'; // Close content div

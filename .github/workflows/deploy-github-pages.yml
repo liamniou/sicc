@@ -1,5 +1,13 @@
 name: Deploy ChaiBuilder Static Site to GitHub Pages
 
+# This workflow:
+# 1. Converts events.yaml to ChaiBuilder .chai files using TheMovieDB API
+# 2. Generates static HTML from ChaiBuilder files  
+# 3. Deploys to GitHub Pages
+# 
+# Required secrets:
+#   - MOVIEDB_API_KEY: API key for TheMovieDB (https://www.themoviedb.org/settings/api)
+
 on:
   workflow_dispatch:
     # Allow manual triggering for quick deployments
@@ -11,6 +19,8 @@ on:
       - 'chaibuilder-nextjs/app/**'
       - 'chaibuilder-nextjs/package.json'
       - 'scripts/generate-static.js'
+      - 'events.yaml'
+      - 'convert_yaml_to_chai.py'
       - '.github/workflows/deploy-github-pages.yml'
 
 # Allow only one concurrent deployment
@@ -34,6 +44,48 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install Python dependencies
+      run: |
+        echo "🐍 Installing Python dependencies..."
+        pip install requests pyyaml
+        echo "✅ Python dependencies installed successfully!"
+    
+    - name: Convert YAML events to ChaiBuilder format
+      env:
+        MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
+      run: |
+        echo "🔄 Converting events.yaml to ChaiBuilder .chai files..."
+        
+        # Validate input files exist
+        if [ ! -f "events.yaml" ]; then
+          echo "❌ events.yaml not found!"
+          exit 1
+        fi
+        
+        if [ ! -f "convert_yaml_to_chai.py" ]; then
+          echo "❌ convert_yaml_to_chai.py not found!"
+          exit 1
+        fi
+        
+        # Run conversion
+        python convert_yaml_to_chai.py
+        
+        echo "✅ Event data conversion completed!"
+        
+        # List generated files
+        if [ -f "chaibuilder-nextjs/chai/main_events.global.chai" ]; then
+          echo "📄 Generated main_events.global.chai"
+        fi
+        
+        if [ -f "chaibuilder-nextjs/chai/events.global.chai" ]; then
+          echo "📄 Generated events.global.chai"
+        fi
     
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -108,7 +160,15 @@ jobs:
     - name: Notify completion
       run: |
         echo "🎉 ChaiBuilder site deployment successful!"
+        echo ""
+        echo "📋 Deployment process completed:"
+        echo "  1. ✅ Converted events.yaml to ChaiBuilder .chai files"
+        echo "  2. ✅ Generated static HTML from ChaiBuilder files"
+        echo "  3. ✅ Deployed to GitHub Pages"
+        echo ""
         echo "📱 Site available at: ${{ steps.deployment.outputs.page_url }}"
         echo "🏠 Home page: ${{ steps.deployment.outputs.page_url }}/"
         echo "📖 About page: ${{ steps.deployment.outputs.page_url }}/about/"
         echo "🎬 Events page: ${{ steps.deployment.outputs.page_url }}/events/"
+        echo "📞 Contact page: ${{ steps.deployment.outputs.page_url }}/contact/"
+        echo "🤝 Work page: ${{ steps.deployment.outputs.page_url }}/work/"
