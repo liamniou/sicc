@@ -278,7 +278,7 @@
   },
   {
     "styles": "#styles:,mt-2 text-sm",
-    "content": "Running on volunteer efforts, SICC is continually looking for volunteers to help in various positions. You can read about these and apply <a href=\"./work\" class=\"underline\">here</a>.<br>\n<b>NOTE</b> - we currently don’t host the volunteer onboarding sessions very frequently, but we will get in touch when the next session is scheduled!\n",
+    "content": "Running on volunteer efforts, SICC is continually looking for volunteers to help in various positions. You can read about these and apply <a href=\"/work\" class=\"underline\">here</a>.<br>\n<b>NOTE</b> - we currently don’t host the volunteer onboarding sessions very frequently, but we will get in touch when the next session is scheduled!\n",
     "_type": "Paragraph",
     "_id": "AueChb",
     "_parent": "tpwnwq"
@@ -311,7 +311,7 @@
   },
   {
     "styles": "#styles:,mt-2 text-sm",
-    "content": "Fantastic! You can contact us through <a href=\"./work\" class=\"underline\">this page</a>, or alternatively through <a href =\"https://www.instagram.com/stockholminternationalcinema/\" class=\"underline\">Instagram</a>.",
+    "content": "Fantastic! You can contact us through <a href=\"/work\" class=\"underline\">this page</a>, or alternatively through <a href =\"https://www.instagram.com/stockholminternationalcinema/\" class=\"underline\">Instagram</a>.",
     "_type": "Paragraph",
     "_id": "mjknmq",
     "_parent": "ifcqnh"
