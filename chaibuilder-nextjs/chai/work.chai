@@ -75,7 +75,7 @@
   },
   {
     "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
+    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800",
     "content": "For collaboration",
     "_type": "Heading",
     "_id": "kglmAw",
@@ -111,7 +111,7 @@
   },
   {
     "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800 dark:text-white",
+    "styles": "#styles:,text-3xl font-semibold tracking-tight text-gray-800",
     "content": "For volunteers",
     "_type": "Heading",
     "_id": "qhzxwq",
@@ -125,7 +125,7 @@
     "_parent": "wblymD"
   },
   {
-    "styles": "#styles:,transform border border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white dark:ring-gray-700 dark:hover:bg-gray-800 bg-black hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
+    "styles": "#styles:,transform border border-gray-200 bg-black hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto",
     "content": "Apply",
     "link": {
       "type": "url",
@@ -442,9 +442,7 @@
       "roundedCorners": 15,
       "primaryColor": "#570df8",
       "secondaryColor": "#f002b8",
-      "bodyBgDarkColor": "#031022",
       "bodyBgLightColor": "#fcfcfc",
-      "bodyTextDarkColor": "#ffffff",
       "bodyTextLightColor": "#000000"
     }
   },

@@ -7,9 +7,7 @@
     "roundedCorners": 15,
     "primaryColor": "#570df8",
     "secondaryColor": "#f002b8",
-    "bodyBgDarkColor": "#031022",
     "bodyBgLightColor": "#fcfcfc",
-    "bodyTextDarkColor": "#ffffff",
     "bodyTextLightColor": "#000000"
   }
 }

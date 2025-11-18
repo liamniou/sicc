@@ -38,7 +38,7 @@
     "_parent": "mDnBqv"
   },
   {
-    "styles": "#styles:,relative z-20 mx-auto rounded bg-white p-6 shadow dark:bg-gray-900 max-w-2xl -mt-10",
+    "styles": "#styles:,relative z-20 mx-auto rounded bg-white p-6 shadow max-w-2xl -mt-10",
     "tag": "div",
     "backgroundImage": "",
     "_type": "Box",
@@ -47,7 +47,7 @@
     "_parent": "mDnBqv"
   },
   {
-    "styles": "#styles:,flex justify-center text-3xl font-semibold mt-4 text-center text-gray-900 dark:text-white",
+    "styles": "#styles:,flex justify-center text-3xl font-semibold mt-4 text-center text-gray-900",
     "content": "Stockholm International Cinema Collective",
     "_type": "Paragraph",
     "_id": "uraevv",
@@ -55,7 +55,7 @@
     "_name": "Title"
   },
   {
-    "styles": "#styles:,mt-3 text-center text-gray-700 dark:text-gray-200",
+    "styles": "#styles:,mt-3 text-center text-gray-700",
     "content": "SICC is a volunteer-run community that organises English-subtitled screenings of international films at independent cinemas around Stockholm. Welcome!",
     "_type": "Paragraph",
     "_id": "roDwfz",
@@ -98,7 +98,7 @@
   },
   {
     "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl",
     "content": "Our events",
     "_type": "Heading",
     "_id": "mcmouu",
@@ -177,9 +177,7 @@
       "roundedCorners": 15,
       "primaryColor": "#570df8",
       "secondaryColor": "#f002b8",
-      "bodyBgDarkColor": "#031022",
       "bodyBgLightColor": "#fcfcfc",
-      "bodyTextDarkColor": "#ffffff",
       "bodyTextLightColor": "#000000"
     }
   },

@@ -4,7 +4,7 @@ import { SingleLineText } from "@chaibuilder/runtime/controls";
 // Define the Card component with destructured props
 const Card = ({ blockProps, link, posterUrl, m_title, date, place, overlayed }: any) => {
   // If Overlayed is "yes", add opacity-50
-  const boxClass = overlayed === "yes" ? "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800 opacity-50" : "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800";
+  const boxClass = overlayed === "yes" ? "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg opacity-50" : "w-full max-w-xs overflow-hidden rounded-lg bg-white shadow-lg";
   return (
     <a href={link} target="_blank" className="" {...blockProps}>
       <div className={boxClass}>
@@ -18,16 +18,16 @@ const Card = ({ blockProps, link, posterUrl, m_title, date, place, overlayed }: 
         />
         <div className="py-5 text-center xl:py-[30px]">
           <span
-            className="block text-2xl font-bold text-gray-800 dark:text-white xl:text-[20px]"
+            className="block text-2xl font-bold text-gray-800 xl:text-[20px]"
             data-ai-key="content"
           >
             {m_title}
           </span>
-          <span className="block dark:text-white" data-ai-key="content">
+          <span className="block" data-ai-key="content">
             {date}
           </span>
           <span
-            className="text-sm text-gray-700 dark:text-gray-200"
+            className="text-sm text-gray-700"
             data-ai-key="content"
           >
             📍 {place}

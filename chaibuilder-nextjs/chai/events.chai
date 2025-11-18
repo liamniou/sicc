@@ -43,7 +43,7 @@
   },
   {
     "level": "h2",
-    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white",
+    "styles": "#styles:,text-3xl font-semibold text-gray-800 lg:text-4xl",
     "content": "Events archive",
     "_type": "Heading",
     "_id": "mcmouu",

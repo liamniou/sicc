@@ -44,7 +44,7 @@
     }
   },
   {
-    "styles": "#styles:,w-8 h-8 text-primary-400 dark:text-primary-300 rounded",
+    "styles": "#styles:,w-8 h-8 text-primary-400 rounded",
     "image": "https://i.imgur.com/GFc7AYf.png",
     "alt": "logo",
     "width": "",
@@ -55,7 +55,7 @@
     "_parent": "fBeAhd"
   },
   {
-    "styles": "#styles:,ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase dark:text-gray-100",
+    "styles": "#styles:,ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase",
     "content": "SICC",
     "_type": "Span",
     "_id": "axfdom",
@@ -96,7 +96,7 @@
     "_parent": "ucqkuz"
   },
   {
-    "styles": "#styles:,relative inline-block text-black focus:outline-none dark:text-white",
+    "styles": "#styles:,relative inline-block text-black focus:outline-none",
     "content": "Home",
     "link": {
       "type": "url",
@@ -120,7 +120,7 @@
     "_parent": "ucqkuz"
   },
   {
-    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
+    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600",
     "content": "About Us",
     "link": {
       "type": "url",
@@ -141,7 +141,7 @@
     "_parent": "ucqkuz"
   },
   {
-    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
+    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600",
     "content": "Work with SICC",
     "link": {
       "type": "url",
@@ -162,7 +162,7 @@
     "_parent": "ucqkuz"
   },
   {
-    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300",
+    "styles": "#styles:,inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600",
     "content": "Contact",
     "link": {
       "type": "url",
@@ -217,7 +217,7 @@
     "_name": "FB"
   },
   {
-    "styles": "#styles:,w-8 h-8 text-primary-400 dark:text-primary-300 rounded",
+    "styles": "#styles:,w-8 h-8 text-primary-400 rounded",
     "image": "https://i.imgur.com/wSXYA4A.png",
     "alt": "FB",
     "width": "",
@@ -254,7 +254,7 @@
     "_name": "Inst"
   },
   {
-    "styles": "#styles:,w-8 h-8 text-primary-400 dark:text-primary-300 rounded",
+    "styles": "#styles:,w-8 h-8 text-primary-400 rounded",
     "image": "https://i.imgur.com/hvJTMtn.png",
     "alt": "Inst",
     "width": "",
@@ -291,7 +291,7 @@
     "_name": "Meetup"
   },
   {
-    "styles": "#styles:,w-8 h-8 text-primary-400 dark:text-primary-300 rounded",
+    "styles": "#styles:,w-8 h-8 text-primary-400 rounded",
     "image": "https://i.imgur.com/1Y0vrPG.png",
     "alt": "Meetup",
     "width": "",
@@ -310,9 +310,7 @@
       "roundedCorners": 15,
       "primaryColor": "#570df8",
       "secondaryColor": "#f002b8",
-      "bodyBgDarkColor": "#031022",
       "bodyBgLightColor": "#fcfcfc",
-      "bodyTextDarkColor": "#ffffff",
       "bodyTextLightColor": "#000000"
     }
   },
