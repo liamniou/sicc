@@ -3,7 +3,7 @@ import { getChaiBuilderTheme } from "@chaibuilder/sdk/tailwind";
 import chaiConfig from "./chai.config.json";
 
 const config: Config = {
-  darkMode: "class",
+  darkMode: false,
   content: {
     files: [
       "./pages/**/*.{js,ts,jsx,tsx,mdx}",
