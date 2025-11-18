@@ -22,6 +22,7 @@ on:
       - 'events.yaml'
       - 'convert_yaml_to_chai.py'
       - '.github/workflows/deploy-github-pages.yml'
+      - 'convert_yaml_to_chai.py'
 
 # Allow only one concurrent deployment
 concurrency:
