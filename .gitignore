@@ -1,39 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+# OS
 .DS_Store
-*.pem
+Thumbs.db
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
+# Local environment
+.env
+.env.local
 .env*.local
 
-# vercel
-.vercel
+# Build output (generated, don't commit)
+# Note: static-site/ is committed for the initial version but regenerated on deploy
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-.idea
-.env
+# Misc
+*.pem
+*.log
