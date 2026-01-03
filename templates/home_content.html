@@ -1,0 +1,26 @@
+<section>
+  <div class="mt-0 pb-16" id="about">
+    <img src="https://i.imgur.com/FDwpjsu.jpeg" alt="SICC Group Photo" class="relative z-10 h-64 w-2/3 rounded-xl object-cover mx-auto" loading="lazy">
+    <div class="relative z-20 mx-auto rounded bg-white p-6 shadow max-w-2xl -mt-10">
+      <p class="flex justify-center text-3xl font-semibold mt-4 text-center text-gray-800">Stockholm International Cinema Collective</p>
+      <p class="mt-3 text-center text-gray-700">SICC is a volunteer-run community that organises English-subtitled screenings of international films at independent cinemas around Stockholm. Welcome!</p>
+    </div>
+  </div>
+  <hr class="border-gray-200">
+  <section>
+    <div class="container mx-auto px-6 py-10">
+      <div class="text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 lg:text-4xl">Our events</h2>
+      </div>
+      <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:mt-12 xl:grid-cols-4 xl:gap-12" id="events">
+        {{MAIN_EVENTS}}
+      </div>
+    </div>
+    <div class="mx-auto flex max-w-lg flex-col items-center text-center pb-4">
+      <a href="/events/index.html">
+        <div class="place-self-center bg-black hover:bg-primary-500 focus:ring-primary-300 mt-6 inline-flex w-full items-center justify-center rounded-lg px-5 py-2 text-white transition-colors duration-300 focus:ring focus:ring-opacity-80 sm:w-auto xl:py-[8px] xl:my-[15px]">Past events</div>
+      </a>
+    </div>
+  </section>
+  <hr class="border-gray-200">
+</section>
