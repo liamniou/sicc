@@ -1,3 +1,12 @@
+# - date:
+#   moviedb:
+#   place:
+#   link:
+
+- date: Oct 27 2026
+  moviedb: https://www.themoviedb.org/movie/1401459-fjord
+  place: Bio Tellus
+  link: https://tellusbio.nu/program/fjord-with-english-subtitles/
 - date: Oct 12 2026
   moviedb: https://www.themoviedb.org/movie/1461432-arkipelag
   place: Bio Aspen
